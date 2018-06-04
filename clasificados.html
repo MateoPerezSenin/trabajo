@@ -9,6 +9,8 @@
     <meta description="Es una pagina para aprender los verbos en aleman.">
     <meta keywords="verbos,aleman,deutsch,spanien,español,conjugados, trainer">
     <title>Clasificados</title>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/clasificados.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
@@ -118,7 +120,7 @@
             font-size: 25px;
             text-align: left;
             display: inline-block;
-            
+
             width: 90%;
         }
 
@@ -201,10 +203,10 @@
             width: 150px;
         }
         p.centrada img{
-            padding-right: 130px;    
+            padding-right: 130px;
         }
         input#txtResultado {
-            
+
             border-bottom: 2px solid black;
         }
         tr:nth-child(n+2):nth-child(-n+9) img{
@@ -364,38 +366,44 @@
             <label classs="bloque">Seleccione el campo</label>
             <br>
             <article class="floatizquierda">
-                <article class="box">
-                    <input type="radio" id="chcInfo" name="chc" value="1">
-                    <img src=".\fotos\Informatica.png" width="20px" height="20px"> Informática y oficina
+                <article class="box" id="camposProfesionalesCheckBox">
+                    <input type="radio" id="chcInfo" name="chc" class="chc" value="1" onclick="changeStat('chcInfo')">
+                    <img src=".\fotos\Informatica.png" width="20px" height="20px">
+                    <a id="chcInfoTxt">Informática y oficina</a>
                     <br>
-                    <input type="radio" id="chcNatu" name="chc" value="2">
-                    <img src=".\fotos\arbol.svg" width="20px" height="20px"> Medio ambiente
+                    <input type="radio" id="chcNatu" name="chc" class="chc" value="2" onclick="changeStat('chcNatu')">
+                    <img src=".\fotos\arbol.svg" width="20px" height="20px">
+                    <a id="chcNatuTxt">Medio ambiente</a>
                     <br>
-                    <input type="radio" id="chcElec" name="chc" value="3">
-                    <img src=".\fotos\electricidad.png" width="20px" height="20px"> Electricidad
+                    <input type="radio" id="chcElec" name="chc" value="3" onclick="changeStat('chcElec')">
+                    <img src=".\fotos\electricidad.png" width="20px" height="20px">
+                    <a id="chcElecTxt">Electricidad</a>
                 </article>
                 <article class="box">
-                    <input type="radio" id="chcAuto" name="chc" value="4">
-                    <img src=.\fotos\Automocion.png width="20px" height="20px"> Automoción
-
-                    <br>
-<!-- esto cuenta como cambio? -->
-                    <input type="radio" id="chcSoci" name="chc" value="5">
-                    <img src=".\fotos\trabajo social.png" width="20px" height="20px"> Trabajo social
+                    <input type="radio" id="chcAuto" name="chc" value="4" onclick="changeStat('chcAuto')">
+                    <img src=.\fotos\Automocion.png width="20px" height="20px">
+                    <a id="chcAutoTxt">Automoción</a>
                     <br>
 
-                <input type="radio" id="chcEqui" name="chc" value="6">
-                    <img src=".\fotos\Caballito de palo.png" width="20px" height="20px"> Equitación
+                    <input type="radio" id="chcSoci" name="chc" value="5" onclick="changeStat('chcSoci')">
+                    <img src=".\fotos\trabajo social.png" width="20px" height="20px">
+                    <a id="chcSociTxt">Trabajo social</a>
+                    <br>
+
+                <input type="radio" id="chcEqui" name="chc" value="6" onclick="changeStat('chcEqui')">
+                    <img src=".\fotos\Caballito de palo.png" width="20px" height="20px">
+                    <a id="chcEquiTxt">Equitación</a>
                 </article>
                 <article class="box">
-                    <input type="radio" id="chcHoste" name="chc" value="7">
-                    <img src=.\fotos\hosteleria.png width="20px" height="20px"> Hostelería
+                    <input type="radio" id="chcHoste" name="chc" value="7" onclick="changeStat('chcHoste')">
+                    <img src=.\fotos\hosteleria.png width="20px" height="20px"> <a id="chcHosteTxt">Hoteleria</a>
                     <br>
-                    <input type="radio" id="chcInfo" name="chc" value="8">
-                    <img src=".\fotos\Farmacia.svg" width="20px" height="20px"> Sanidad
+                    <input type="radio" id="chcSan" name="chc" value="8" onclick="changeStat('chcSan')">
+                    <img src=".\fotos\Farmacia.svg" width="20px" height="20px">
+                    <a id="chcSanTxt">Sanidad</a>
                     <br>
        <input type="radio" id="chcOtros" name="chc" value="9" > <span style="padding-left: 26px;">Otros</span>
-                 
+
                 </article>
             </article>
         </form>
@@ -441,13 +449,13 @@
             <br>
             <hr>
 
-            
+
             <p id="naps" class="napEspaña1" style="height: 20px;"></p>
             <p id="naps" class="napEspaña1" style="height: 20px;"></p>
             <p id="naps" class="napEspaña1" style="height: 20px;"></p>
 
             <hr>
-            
+
             <p id="span" style="height: 100px;"></p>
         </article>
         <article class="floatDerecha">
@@ -460,16 +468,16 @@
             <hr>
 
 
-            
+
             <p id="naps" class="napAle1" style="height: 20px;"></p>
             <p id="naps" class="napAle1" style="height: 20px;"></p>
             <p id="naps" class="napAle1" style="height: 20px;"></p>
 
             <hr>
-           
+
            <p id="span2" style="height: 100px;"></p>
          </article>
-        
+
 
         <hr style="clear: both">
 
@@ -1274,7 +1282,7 @@ var rotieren = [new Verbo("rotiere", "retierst", "rotiert", "rotieren", "rotiert
         }
         a2 = !a2;
     }
- 
+
 
 
 
