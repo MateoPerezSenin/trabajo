@@ -529,352 +529,333 @@
     </p>
 </footer>
 <script>
-    var abschalten = [new Verbo("schalte ab", "schaltest ab", "schaltet ab", "schalten ab", "schaltet ab", "schalten ab"), new Verbo("habe abgeschaltet", "hast abgeschaltet", "hat abgeschaltet", "haben abgeschaltet", "habt abgeschaltet", "haben abgeschaltet"), "ab·schalten", "Él apaga la máquina-Er schaltet die Maschine ab", "die Computer abschalten-apagar el ordenador&den Fernseher abschalten-apagar el televisor&den Storm abschalten-cortar la corriente electrica", "1"];
+  var abschalten = [new Verbo("schalte ab", "schaltest ab", "schaltet ab", "schalten ab", "schaltet ab", "schalten ab"), new Verbo("habe abgeschaltet", "hast abgeschaltet", "hat abgeschaltet", "haben abgeschaltet", "habt abgeschaltet", "haben abgeschaltet"), "abschalten", "Él apaga la máquina-Er schaltet die Maschine ab", "1"];
 
-    var zumachen = [new Verbo("mache zu", "machst zu", "macht zu", "machen zu", "macht zu", "machen zu"), new Verbo("habe zugemacht", "hast zugemacht", "hat zugemacht", "haben zugemacht", "habt zugemacht", "haben zugemacht"), "zu·machen", "No debes cerrar la puerta-Du darfst nicht die Tür zumachen"];
+var zumachen = [new Verbo("mache zu", "machst zu", "macht zu", "machen zu", "macht zu", "machen zu"), new Verbo("habe zugemacht", "hast zugemacht", "hat zugemacht", "haben zugemacht", "habt zugemacht", "haben zugemacht"), "zumachen", "No debes cerrar la puerta-Du darfst nicht die Tür zumachen","2"];
 
-    var aussetzen = [new Verbo("setze aus", "setzt aus", "setzt aus", "setzen aus", "setzt aus", "setzen aus"), new Verbo("habe ausgesetzt", "hast ausgesetzt", "hat ausgesetzt", "haben ausgesetzt", "habt ausgesetzt", "haben ausgesetzt"), "aus·setzen", "Pasar un turno (juego de cartas)-Der Motor setzt aus"];
+var aussetzen = [new Verbo("setze aus", "setzt aus", "setzt aus", "setzen aus", "setzt aus", "setzen aus"), new Verbo("habe ausgesetzt", "hast ausgesetzt", "hat ausgesetzt", "haben ausgesetzt", "habt ausgesetzt", "haben ausgesetzt"), "aussetzen", "El motor se interrumpe-Der Motor setzt aus","3s"];
 
-    var anziehen = [new Verbo("ziehe an", "ziehst an", "zieht an", "ziehen an", "zieht an", "ziehen an"), new Verbo("habe angezogen", "hast angezogen", "hat angezogen", "haben angezogen", "habt angezogen", "haben angezogen"), "an·ziehen", "Vete a vestir-Ich ziehe mich an"];
+var anziehen = [new Verbo("ziehe an", "ziehst an", "zieht an", "ziehen an", "zieht an", "ziehen an"), new Verbo("habe angezogen", "hast angezogen", "hat angezogen", "haben angezogen", "habt angezogen", "haben angezogen"), "anziehen", "Me pongo el abrigo-Ich ziehe mir den Mantel an"];
 
-    var putzen = [new Verbo("putze", "putzt", "putzt", "putzen", "putzt", "putzen"), new Verbo("habe geputzt", "hast geputzt", "hat geputzt", "haben geputzt", "habt geputzt", "haben geputzt"), "putzen", "lavarse los dientes-sich die Zähne putzen"];
+var putzen = [new Verbo("putze", "putzt", "putzt", "putzen", "putzt", "putzen"), new Verbo("habe geputzt", "hast geputzt", "hat geputzt", "haben geputzt", "habt geputzt", "haben geputzt"), "putzen", "Él se lava los dientes todos los días-Er putzt sich die Zähne jeden Tag"];
 
-    var mitkommen = [new Verbo("komme mit", "kommst mit", "kommt mit", "kommen mit", "kommt mit", "kommen mit"), new Verbo("bin mitgekommen", "bist mitgekommen", "ist mitgekommen", "sind mitgekommen", "seid mitgekommen", "sind mitgekommen"), "mit·kommen", "Quiero ir contigo-Ich möchte mit dir mitkommen"];
+var mitkommen = [new Verbo("komme mit", "kommst mit", "kommt mit", "kommen mit", "kommt mit", "kommen mit"), new Verbo("bin mitgekommen", "bist mitgekommen", "ist mitgekommen", "sind mitgekommen", "seid mitgekommen", "sind mitgekommen"), "mitkommen", "Me gustaría ir contigo-Ich möchte mit dir mitkommen"];
 
-    var aufräumen = [new Verbo("räume auf", "räumst auf", "räumt auf", "räumen auf", "räumt auf", "räumen auf"), new Verbo("habe aufgeräumt", "hast aufgeräumt", "hat aufgeräumt", "haben aufgeräumt", "habt aufgeräumt", "haben aufgeräumt"), "auf·räumen", "Tienes que ordenar tu escritorio-Du musst deinen Schreibtisch aufräumen"];
+var aufräumen = [new Verbo("räume auf", "räumst auf", "räumt auf", "räumen auf", "räumt auf", "räumen auf"), new Verbo("habe aufgeräumt", "hast aufgeräumt", "hat aufgeräumt", "haben aufgeräumt", "habt aufgeräumt", "haben aufgeräumt"), "aufräumen", "Tienes que ordenar tu escritorio-Du musst deinen Schreibtisch aufräumen"];
 
-    var installieren = [new Verbo("installiere", "installierst", "installiert", "installieren", "installiert", "installieren"), new Verbo("habe installiert", "hast installiert", "hat installiert", "haben installiert", "habt installiert", "haben installiert"), "installieren", "Instalo el programa en el ordenador-Ich installiere das Programm auf dem Computer"];
+var installieren = [new Verbo("installiere", "installierst", "installiert", "installieren", "installiert", "installieren"), new Verbo("habe installiert", "hast installiert", "hat installiert", "haben installiert", "habt installiert", "haben installiert"), "installieren", "Instalo el programa en el ordenador-Ich installiere das Programm auf dem Computer"];
 
-    var aufladen = [new Verbo("lade auf", "lädst auf", "lädt auf", "laden auf", "ladet auf", "laden auf"), new Verbo("habe aufgeladen", "hast aufgeladen", "hat aufgeladen", "haben aufgeladen", "habt aufgeladen", "haben aufgeladen"), "auf·laden", "Recargo la batería del teléfono móvil-Ich lade den Handy-Akku auf"];
+var aufladen = [new Verbo("lade auf", "lädst auf", "lädt auf", "laden auf", "ladet auf", "laden auf"), new Verbo("habe aufgeladen", "hast aufgeladen", "hat aufgeladen", "haben aufgeladen", "habt aufgeladen", "haben aufgeladen"), "aufladen", "Recargo la batería del teléfono móvil-Ich lade den Akku des Handys auf"];
 
-    var reparieren = [new Verbo("repariere", "reparierst", "repariert", "reparieren", "repariert", "reparieren"), new Verbo("habe repariert", "hast repariert", "hat repariert", "haben repariert", "habt repariert", "haben repariert"), "reparieren", "Reparo el ventilador de mi hermana-Ich repariere den Ventilator meiner Schwester"];
+var reparieren = [new Verbo("repariere", "reparierst", "repariert", "reparieren", "repariert", "reparieren"), new Verbo("habe repariert", "hast repariert", "hat repariert", "haben repariert", "habt repariert", "haben repariert"), "reparieren", "Reparo el ventilador de mi hermana-Ich repariere den Ventilator meiner Schwester"];
 
-    var ausdrucken = [new Verbo("drucke aus", "druckst aus", "druckt aus", "drucken aus", "druckt aus", "drucken aus"), new Verbo("habe ausgedruckt", "hast ausgedruckt", "hat ausgedruckt", "haben ausgedruckt", "habt ausgedruckt", "haben ausgedruckt"), "aus·drucken", "Tú imprimes el formulario con la impresora-Du druckst dein Formular mit dem Drucker aus"];
+var ausdrucken = [new Verbo("drucke aus", "druckst aus", "druckt aus", "drucken aus", "druckt aus", "drucken aus"), new Verbo("habe ausgedruckt", "hast ausgedruckt", "hat ausgedruckt", "haben ausgedruckt", "habt ausgedruckt", "haben ausgedruckt"), "ausdrucken", "La impresora también imprime fotos-Der Drucker druckt auch Fotos aus "];
 
-    var löschen = [new Verbo("lösche", "löschst", "löscht", "löschen", "löscht", "löschen"), new Verbo("habe gelöscht", "hast gelöscht", "hat gelöscht", "haben gelöscht", "habt gelöscht", "haben gelöscht"), "löschen", "Él ha eliminado el párrafo del documento-Er hat den Absatz aus dem Dokument gelöscht"];
+var löschen = [new Verbo("lösche", "löschst", "löscht", "löschen", "löscht", "löschen"), new Verbo("habe gelöscht", "hast gelöscht", "hat gelöscht", "haben gelöscht", "habt gelöscht", "haben gelöscht"), "löschen", "Él ha eliminado el párrafo del documento-Er hat den Absatz aus dem Dokument gelöscht"];
 
-    var tippen = [new Verbo("tippe", "tippst", "tippt", "tippen", "tippt", "tippen"), new Verbo("habe getippt", "hast getippt", "hat getippt", "haben getippt", "habt getippt", "haben getippt"), "tippen", "Escribo a ordenador el artículo del periódico-Ich tippe den Zeitungsartikel"];
+var tippen = [new Verbo("tippe", "tippst", "tippt", "tippen", "tippt", "tippen"), new Verbo("habe getippt", "hast getippt", "hat getippt", "haben getippt", "habt getippt", "haben getippt"), "tippen", "Escribo a ordenador el artículo del periódico-Ich tippe den Zeitungsartikel"];
 
-    var programmieren = [new Verbo("programmiere", "programmierst", "programmiert", "programmieren", "programmiert", "programmieren"), new Verbo("habe programmiert", "hast programmiert", "hat programmiert", "haben programmiert", "habt programmiert", "haben programmiert"), "programmieren", "Programo una aplicación informática-Ich programmiere eine Anwendung"];
+var programmieren = [new Verbo("programmiere", "programmierst", "programmiert", "programmieren", "programmiert", "programmieren"), new Verbo("habe programmiert", "hast programmiert", "hat programmiert", "haben programmiert", "habt programmiert", "haben programmiert"), "programmieren", "Programo una aplicación informática-Ich programmiere eine Anwendung"];
 
-    // var anklicken = cambiar[new Verbo("klicke an", "klickst an", "klickt an", "klicken an", "klickt an", "klicken an"), new Verbo("habe angeklickt", "hast angeklickt", "hat angeklickt", "haben angeklickt", "habt angeklickt", "haben angeklickt"), "an·klicken", "Hago clic con el cursor sobre la carpeta-Ich klicke mit dem Cursor den Ordner an"];
+// var anklicken = cambiar[new Verbo("klicke an", "klickst an", "klickt an", "klicken an", "klickt an", "klicken an"), new Verbo("habe angeklickt", "hast angeklickt", "hat angeklickt", "haben angeklickt", "habt angeklickt", "haben angeklickt"), "anklicken", "Hago clic con el cursor en la carpeta-Ich klicke mit dem Cursor den Ordner an"];
 
-    var formatieren = [new Verbo("formatiere", "formatierst", "formatiert", "formatieren", "formatiert", "formatieren"), new Verbo("habe formatiert", "hast formatiert", "hat formatiert", "haben formatiert", "habt formatiert", "haben formatiert"), "formatieren", "Formateo el disco duro-Ich formatiere die Festplatte"];
+var formatieren = [new Verbo("formatiere", "formatierst", "formatiert", "formatieren", "formatiert", "formatieren"), new Verbo("habe formatiert", "hast formatiert", "hat formatiert", "haben formatiert", "habt formatiert", "haben formatiert"), "formatieren", "Formateo el disco duro-Ich formatiere die Festplatte"];
 
-    var kopieren = [new Verbo("kopiere", "kopierst", "kopiert", "kopieren", "kopiert", "kopieren"), new Verbo("habe kopiert", "hast kopiert", "hat kopiert", "haben kopiert", "habt kopiert", "haben kopiert"), "kopieren", "Copio el archivo a otra carpeta-Ich kopiere die Datei in einen anderen Ordner"];
+var kopieren = [new Verbo("kopiere", "kopierst", "kopiert", "kopieren", "kopiert", "kopieren"), new Verbo("habe kopiert", "hast kopiert", "hat kopiert", "haben kopiert", "habt kopiert", "haben kopiert"), "kopieren", "Copio el archivo a otra carpeta-Ich kopiere die Datei in einen anderen Ordner"];
 
-    var messen = [new Verbo("messe", "misst", "misst", "messen", "messt", "messen"), new Verbo("habe gemessen", "hast gemessen", "hat gemessen", "haben gemessen", "habt gemessen", "haben gemessen"), "messen", "Mido la ventana-Ich messe das Fenster"];
+var messen = [new Verbo("messe", "misst", "misst", "messen", "messt", "messen"), new Verbo("habe gemessen", "hast gemessen", "hat gemessen", "haben gemessen", "habt gemessen", "haben gemessen"), "messen", "Mido la ventana-Ich messe das Fenster"];
 
-    var durchschneiden = [new Verbo("schneide durch", "schneidest durch", "schneidet durch", "schneiden durch", "schneidet durch", "schneiden durch"), new Verbo("habe durchgeschnitten", "hast durchgeschnitten", "hat durchgeschnitten", "haben durchgeschnitten", "habt durchgeschnitten", "haben durchgeschnitten"), "durch·schneiden", "Corta la tubería por la mitad-Schneid das Rohr in der Mitte durch"];
+var durchschneiden = [new Verbo("schneide durch", "schneidest durch", "schneidet durch", "schneiden durch", "schneidet durch", "schneiden durch"), new Verbo("habe durchgeschnitten", "hast durchgeschnitten", "hat durchgeschnitten", "haben durchgeschnitten", "habt durchgeschnitten", "haben durchgeschnitten"), "durchschneiden", "Corta la tubería por la mitad-Schneide das Rohr in der Mitte durch"];
 
-    var herstellen = [new Verbo("herstelle", "herstellst", "herstellt", "herstellen", "herstellt", "herstellen"), new Verbo("habe hergestellt", "hast hergestellt", "hat hergestellt", "haben hergestellt", "habt hergestellt", "haben hergestellt"), "herstellen", "En esta fábrica se producen muebles-In dieser Fabrik werden Möbel hergestellt"];
+var herstellen = [new Verbo("herstelle", "herstellst", "herstellt", "herstellen", "herstellt", "herstellen"), new Verbo("habe hergestellt", "hast hergestellt", "hat hergestellt", "haben hergestellt", "habt hergestellt", "haben hergestellt"), "herstellen", "En esta fábrica se producen muebles-In dieser Fabrik werden Möbel hergestellt"];
 
-    var durchbohren = [new Verbo("durchbohre", "durchbohrst", "durchbohrt", "durchbohren", "durchbohrt", "durchbohren"), new Verbo("habe durchbohrt", "hast durchbohrt", "hat durchbohrt", "haben durchbohrt", "habt durchbohrt", "haben durchbohrt"), "durch·bohren", "Él taladra la pared-Er durchbohrt die Wand"];
+var streichen = [new Verbo("streiche", "streichst", "streicht", "streichen", "streicht", "streichen"), new Verbo("habe gestrichen", "hast gestrichen", "hat gestrichen", "haben gestrichen", "habt gestrichen", "haben gestrichen"), "streichen", "Tú pintas el banco de azul-Du streichst die Bank in blauer Farbe"];
 
-    var streichen = [new Verbo("streiche", "streichst", "streicht", "streichen", "streicht", "streichen"), new Verbo("habe gestrichen", "hast gestrichen", "hat gestrichen", "haben gestrichen", "habt gestrichen", "haben gestrichen"), "streichen", "Tú pintas el banco de azul-Du streichst die Bank in blauer Farbe"];
+var kleben = [new Verbo("klebe", "klebst", "klebt", "kleben", "klebt", "kleben"), new Verbo("habe geklebt", "hast geklebt", "hat geklebt", "haben geklebt", "habt geklebt", "haben geklebt"), "kleben", "He pegado las piezas entre sí-Ich habe die Stücke miteinander geklebt"];
 
-    var kleben = [new Verbo("klebe", "klebst", "klebt", "kleben", "klebt", "kleben"), new Verbo("habe geklebt", "hast geklebt", "hat geklebt", "haben geklebt", "habt geklebt", "haben geklebt"), "kleben", "He pegado las piezas entre sí-Ich habe die Stücke miteinander geklebt"];
+var zerkleinern = [new Verbo("zerkleinere", "zerkleinerst", "zerkleinert", "zerkleinern", "zerkleinert", "zerkleinern"), new Verbo("habe zerkleinert", "hast zerkleinert", "hat zerkleinert", "haben zerkleinert", "habt zerkleinert", "haben zerkleinert"), "zerkleinern", "Ella pica los pimientos-Sie zerkleinert die Paprika"];
 
-    var zerkleinern = [new Verbo("zerkleinere", "zerkleinerst", "zerkleinert", "zerkleinern", "zerkleinert", "zerkleinern"), new Verbo("habe zerkleinert", "hast zerkleinert", "hat zerkleinert", "haben zerkleinert", "habt zerkleinert", "haben zerkleinert"), "zerkleinern", "Ella pica los pimientos-Sie zerkleinert die Paprika"];
+var montieren = [new Verbo("montiere", "montierst", "montiert", "montieren", "montiert", "montieren"), new Verbo("habe montiert", "hast montiert", "hat montiert", "haben montiert", "habt montiert", "haben montiert"), "montieren", "He montado placas solares-Ich habe Solarmodulen montiert"];
 
-    var montieren = [new Verbo("montiere", "montierst", "montiert", "montieren", "montiert", "montieren"), new Verbo("habe montiert", "hast montiert", "hat montiert", "haben montiert", "habt montiert", "haben montiert"), "montieren", "He montado placas solares-Ich habe Solarmodulen montiert"];
+var heften = [new Verbo("hefte", "heftest", "heftet", "heften", "heftet", "heften"), new Verbo("habe geheftet", "hast geheftet", "hat geheftet", "haben geheftet", "habt geheftet", "haben geheftet"), "heften", "Grapo las vigas-Ich hefte die Balken"];
 
-    var heften = [new Verbo("hefte", "heftest", "heftet", "heften", "heftet", "heften"), new Verbo("habe geheftet", "hast geheftet", "hat geheftet", "haben geheftet", "habt geheftet", "haben geheftet"), "heften", "Grapo las vigas-Ich hefte die Balken"];
+var laden = [new Verbo("lade", "lädst", "lädt", "laden", "ladet", "laden"), new Verbo("habe geladen", "hast geladen", "hat geladen", "haben geladen", "habt geladen", "haben geladen"), "laden", "He cargado el saco de arena-Ich habe den Sandsack geladen"];
 
-    var laden = [new Verbo("lade", "lädst", "lädt", "laden", "ladet", "laden"), new Verbo("habe geladen", "hast geladen", "hat geladen", "haben geladen", "habt geladen", "haben geladen"), "laden", "He cargado el saco de arena-Ich habe den Sandsack geladen"];
+var saugen = [new Verbo("sauge", "saugst", "saugt", "saugen", "saugt", "saugen"), new Verbo("habe gesaugt", "hast gesaugt", "hat gesaugt", "haben gesaugt", "habt gesaugt", "haben gesaugt"), "saugen", "La aspiradora ya no aspira bien-Der Staubsauger saugt nicht mehr richtig"];
 
-    var saugen = [new Verbo("sauge", "saugst", "saugt", "saugen", "saugt", "saugen"), new Verbo("habe gesaugt", "hast gesaugt", "hat gesaugt", "haben gesaugt", "habt gesaugt", "haben gesaugt"), "saugen", "La aspiradora ya no aspira bien-Der Staubsauger saugt nicht mehr richtig"];
+var transportieren = [new Verbo("transportiere", "transportierst", "transportiert", "transportieren", "transportiert", "transportieren"), new Verbo("habe transportiert", "hast transportiert", "hat transportiert", "haben transportiert", "habt transportiert", "haben transportiert"), "transportieren", "Ellos transportan materiales de construcción-Sie transportieren Baustoffe"];
 
-    var transportieren = [new Verbo("transportiere", "transportierst", "transportiert", "transportieren", "transportiert", "transportieren"), new Verbo("habe transportiert", "hast transportiert", "hat transportiert", "haben transportiert", "habt transportiert", "haben transportiert"), "transportieren", "Ellos transportan materiales de construcción-Sie transportieren Baustoffe"];
+var unterrichten = [new Verbo("unterrichte", "unterrichtest", "unterrichtet", "unterrichten", "unterrichtet", "unterrichten"), new Verbo("habe unterrichtet", "hast unterrichtet", "hat unterrichtet", "haben unterrichtet", "habt unterrichtet", "haben unterrichtet"), "unterrichten", "Me explicaron las instrucciones de seguridad-Mir wurden die Sicherheitsunterweisungen unterrichtet"];
 
-    var unterrichten = [new Verbo("unterrichte", "unterrichtest", "unterrichtet", "unterrichten", "unterrichtet", "unterrichten"), new Verbo("habe unterrichtet", "hast unterrichtet", "hat unterrichtet", "haben unterrichtet", "habt unterrichtet", "haben unterrichtet"), "unterrichten", "Me explicaron las instrucciones de seguridad-Mir wurden die Sicherheitsunterweisungen unterrichtet"];
+var schrauben = [new Verbo("schraube", "schraubst", "schraubt", "schrauben", "schraubt", "schrauben"), new Verbo("habe geschraubt", "hast geschraubt", "hat geschraubt", "haben geschraubt", "habt geschraubt", "haben geschraubt"), "schrauben", "Primero atornillas la madera y después la barnizas-Zuerst schraubst du das Holz und danach lackierst du es"];
 
-    var schrauben = [new Verbo("schraube", "schraubst", "schraubt", "schrauben", "schraubt", "schrauben"), new Verbo("habe geschraubt", "hast geschraubt", "hat geschraubt", "haben geschraubt", "habt geschraubt", "haben geschraubt"), "schrauben", "Primero atornillas la madera y después la barnizas-Zuerst schraubst du das Holz und danach lackierst du es"];
+var finden = [new Verbo("finde", "findest", "findet", "finden", "findet", "finden"), new Verbo("habe gefunden", "hast gefunden", "hat gefunden", "haben gefunden", "habt gefunden", "haben gefunden"), "finden", "No encuentro el tornillo-Ich finde die Schraube nicht"];
 
-    var finden = [new Verbo("finde", "findest", "findet", "finden", "findet", "finden"), new Verbo("habe gefunden", "hast gefunden", "hat gefunden", "haben gefunden", "habt gefunden", "haben gefunden"), "finden", "No encuentro el tornillo-Ich kann die Schraube nicht finden"];
+var tun = [new Verbo("tue", "tust", "tut", "tun", "tut", "tun"), new Verbo("habe getan", "hast getan", "hat getan", "haben getan", "habt getan", "haben getan"), "tun", "Hacer el bien-Gutes tun"];
 
-    var tun = [new Verbo("tue", "tust", "tut", "tun", "tut", "tun"), new Verbo("habe getan", "hast getan", "hat getan", "haben getan", "habt getan", "haben getan"), "tun", "Hacer el bien-Gutes tun"];
+var gehen = [new Verbo("gehe", "gehst", "geht", "gehen", "geht", "gehen"), new Verbo("bin gegangen", "bist gegangen", "ist gegangen", "sind gegangen", "seid gegangen", "sind gegangen"), "gehen", "Salgo a dar un paseo-Ich gehe spazieren"];
 
-    var gehen = [new Verbo("gehe", "gehst", "geht", "gehen", "geht", "gehen"), new Verbo("bin gegangen", "bist gegangen", "ist gegangen", "sind gegangen", "seid gegangen", "sind gegangen"), "gehen", "Salgo a dar un paseo-Ich gehe spazieren"];
+var helfen = [new Verbo("helfe", "hilfst", "hilft", "helfen", "helft", "helfen"), new Verbo("habe geholfen", "hast geholfen", "hat geholfen", "haben geholfen", "habt geholfen", "haben geholfen"), "helfen", "Ayudar a un compañero-Einem Kollege helfen"];
 
-    var helfen = [new Verbo("helfe", "hilfst", "hilft", "helfen", "helft", "helfen"), new Verbo("habe geholfen", "hast geholfen", "hat geholfen", "haben geholfen", "habt geholfen", "haben geholfen"), "helfen", "Ayudar en casa-Im Haushalt helfen"];
+var schlagen = [new Verbo("schlage", "schlägst", "schlägt", "schlagen", "schlagt", "schlagen"), new Verbo("habe geschlagen", "hast geschlagen", "hat geschlagen", "haben geschlagen", "habt geschlagen", "haben geschlagen"), "schlagen", "Golpear con el martillo-Mit dem Hammer schlagen"];
 
-    var schlagen = [new Verbo("schlage", "schlägst", "schlägt", "schlagen", "schlagt", "schlagen"), new Verbo("habe geschlagen", "hast geschlagen", "hat geschlagen", "haben geschlagen", "habt geschlagen", "haben geschlagen"), "schlagen", "Golpear con el martillo-Mit dem Hammer schlagen"];
+var verbinden = [new Verbo("verbinde", "verbindest", "verbindet", "verbinden", "verbindet", "verbinden"), new Verbo("habe verbunden", "hast verbunden", "hat verbunden", "haben verbunden", "habt verbunden", "haben verbunden"), "verbinden", "Uno estos dos cables-Ich verbinde diese zwei Kabel"];
 
-    var verbinden = [new Verbo("verbinde", "verbindest", "verbindet", "verbinden", "verbindet", "verbinden"), new Verbo("habe verbunden", "hast verbunden", "hat verbunden", "haben verbunden", "habt verbunden", "haben verbunden"), "verbinden", "Uno estos dos cables-Ich verbinde diese zwei Kabel"];
+var teilen = [new Verbo("teile", "teilst", "teilt", "teilen", "teilt", "teilen"), new Verbo("habe geteilt", "hast geteilt", "hat geteilt", "haben geteilt", "habt geteilt", "haben geteilt"), "teilen", "27 se puede dividir entre 3-27 lässt sich durch 3 teilen"];
 
-    var teilen = [new Verbo("teile", "teilst", "teilt", "teilen", "teilt", "teilen"), new Verbo("habe geteilt", "hast geteilt", "hat geteilt", "haben geteilt", "habt geteilt", "haben geteilt"), "teilen", "27 se puede dividir entre 3-27 lässt sich durch 3 teilen"];
+var polieren = [new Verbo("poliere", "polierst", "poliert", "polieren", "poliert", "polieren"), new Verbo("habe poliert", "hast poliert", "hat poliert", "haben poliert", "habt poliert", "haben poliert"), "polieren", "Sacar brillo al coche-Das Auto glatt polieren"];
 
-    var polieren = [new Verbo("poliere", "polierst", "poliert", "polieren", "poliert", "polieren"), new Verbo("habe poliert", "hast poliert", "hat poliert", "haben poliert", "habt poliert", "haben poliert"), "polieren", "Sacar brillo al coche-Das Auto glatt polieren"];
+var bohren = [new Verbo("bohre", "bohrst", "bohrt", "bohren", "bohrt", "bohren"), new Verbo("habe gebohrt", "hast gebohrt", "hat gebohrt", "haben gebohrt", "habt gebohrt", "haben gebohrt"), "bohren", "Él perfora la pared con la broca-Er bohrt die Wand mit dem Bohrer"];
 
-    var bohren = [new Verbo("bohre", "bohrst", "bohrt", "bohren", "bohrt", "bohren"), new Verbo("habe gebohrt", "hast gebohrt", "hat gebohrt", "haben gebohrt", "habt gebohrt", "haben gebohrt"), "bohren", "Perforar con la broca-Mit dem Bohrer bohren"];
+var reproduzieren = [new Verbo("reproduziere", "reproduzierst", "reproduziert", "reproduzieren", "reproduziert", "reproduzieren"), new Verbo("habe reproduziert", "hast reproduziert", "hat reproduziert", "haben reproduziert", "habt reproduziert", "haben reproduziert"), "reproduzieren", "Hago una copia del vídeo-Ich reproduziere das Video"];
 
-    var reproduzieren = [new Verbo("reproduziere", "reproduzierst", "reproduziert", "reproduzieren", "reproduziert", "reproduzieren"), new Verbo("habe reproduziert", "hast reproduziert", "hat reproduziert", "haben reproduziert", "habt reproduziert", "haben reproduziert"), "reproduzieren", "hago una copia del vídeo-Ich reproduziere das Video"];
+var optimieren = [new Verbo("optimiere", "optimierst", "optimiert", "optimieren", "optimiert", "optimieren"), new Verbo("habe optimiert ", "hast optimiert", "hat optimiert", "haben optimiert", "habt optimiert", "haben optimiert"), "optimieren", "Optimizo el programa-Ich optimiere das Programm"];
 
-    var optimieren = [new Verbo("optimiere", "optimierst", "optimiert", "optimieren", "optimiert", "optimieren"), new Verbo("habe optimiert ", "hast optimiert", "hat optimiert", "haben optimiert", "habt optimiert", "haben optimiert"), "optimieren", "Optimizo el programa-Ich optimiere das Programm"];
+var schreiben = [new Verbo("schreibe", "schreibst", "schreibt", "schreiben", "schreibt", "schreiben"), new Verbo("habe geschrieben", "hast geschrieben", "hat geschrieben", "haben geschrieben", "habt geschrieben", "haben geschrieben"), "schreiben", "Escribir una nota al cliente-Dem Kunde eine Notiz schreiben"];
 
-    var schreiben = [new Verbo("schreibe", "schreibst", "schreibt", "schreiben", "schreibt", "schreiben"), new Verbo("habe geschrieben", "hast geschrieben", "hat geschrieben", "haben geschrieben", "habt geschrieben", "haben geschrieben"), "schreiben", "Escribir una nota al cliente-Dem Kunde eine Notiz schreiben"];
+var einschalten = [new Verbo("schalte ein", "schaltest ein", "schaltet ein", "schalten ein", "schaltet ein", "schalten ein"), new Verbo("habe eingeschaltet", "hast eingeschaltet", "hat eingeschaltet", "haben eingeschaltet", "habt eingeschaltet", "haben eingeschaltet"), "einschalten", "Enciende el ordenador-Schalte den Computer ein"];
 
-    var einschalten = [new Verbo("schalte ein", "schaltest ein", "schaltet ein", "schalten ein", "schaltet ein", "schalten ein"), new Verbo("habe eingeschaltet", "hast eingeschaltet", "hat eingeschaltet", "haben eingeschaltet", "habt eingeschaltet", "haben eingeschaltet"), "ein·schalten", "Enciende el ordenador-Schalte den Computer ein"];
+var fahren = [new Verbo("fahre", "fährst", "fährt", "fahren", "fahrt", "fahren"), new Verbo("bin gefahren", "bist gefahren", "ist gefahren", "sind gefahren", "seid gefahren", "sind gefahren"), "fahren", "Voy al trabajo en bici todos los días-Ich fahre jeden Tag mit dem Fahrrad zur Arbeit"];
 
-    var fahren = [new Verbo("fahre", "fährst", "fährt", "fahren", "fahrt", "fahren"), new Verbo("bin gefahren", "bist gefahren", "ist gefahren", "sind gefahren", "seid gefahren", "sind gefahren"), "fahren", "Conduzco cada día para ir al trabajo-Ich fahre jeden Tag zur Arbeit"];
+var schalten = [new Verbo("schalte", "schaltest", "schaltet", "schalten", "schaltet", "schalten"), new Verbo("habe geschaltet", "hast geschaltet", "hat geschaltet", "haben geschaltet", "habt geschaltet", "haben geschaltet"), "schalten", "Conectar el portátil a la batería-Den Laptop auf Akkubetrieb schalten"];
 
-    var schalten = [new Verbo("schalte", "schaltest", "schaltet", "schalten", "schaltet", "schalten"), new Verbo("habe geschaltet", "hast geschaltet", "hat geschaltet", "haben geschaltet", "habt geschaltet", "haben geschaltet"), "schalten", "Conectar el portátil a la batería-Den Laptop auf Akkubetrieb schalten"];
+var beschleunigen = [new Verbo("beschleunige", "beschleunigst", "beschleunigt", "beschleunigen", "beschleunigt", "beschleunigen"), new Verbo("habe beschleunigt", "hast beschleunigt", "hat beschleunigt", "haben beschleunigt", "habt beschleunigt", "haben beschleunigt"), "beschleunigen", "Este coche acelera de 0 a 100 en 11 segundos-Dieser Wagen beschleunigt von 0 auf 100 Stundenkilometer in 11 Sekunden"];
 
-    var beschleunigen = [new Verbo("beschleunige", "beschleunigst", "beschleunigt", "beschleunigen", "beschleunigt", "beschleunigen"), new Verbo("habe beschleunigt", "hast beschleunigt", "hat beschleunigt", "haben beschleunigt", "habt beschleunigt", "haben beschleunigt"), "beschleunigen", "Este coche acelera de 0 a 100 en 11 segundos-Dieser Wagen beschleunigt von 0 auf 100 Stundenkilometer in 11 Sekunden"];
+var öffnen = [new Verbo("öffne", "öffnest", "öffnet", "öffnen", "öffnet", "öffnen"), new Verbo("habe geöffnet", "hast geöffnet", "hat geöffnet", "haben geöffnet", "habt geöffnet", "haben geöffnet"), "öffnen", "¡Abre la ventana con cuidado!-Öffne das Fenster vorsichtig!"];
 
-    var öffnen = [new Verbo("öffne", "öffnest", "öffnet", "öffnen", "öffnet", "öffnen"), new Verbo("habe geöffnet", "hast geöffnet", "hat geöffnet", "haben geöffnet", "habt geöffnet", "haben geöffnet"), "öffnen", "¡Abre la ventana con cuidado!-Öffne das Fenster vorsichtig!"];
+var kratzen = [new Verbo("kratze", "kratzt", "kratzt", "kratzen", "kratzt", "kratzen"), new Verbo("habe gekratzt", "hast gekratzt", "hat gekratzt", "haben gekratzt", "habt gekratzt", "haben gekratzt"), "kratzen", "He rascado un poco la puerta-Ich habe die Tür leicht gekratzt"];
 
-    var kratzen = [new Verbo("kratze", "kratzt", "kratzt", "kratzen", "kratzt", "kratzen"), new Verbo("habe gekratzt", "hast gekratzt", "hat gekratzt", "haben gekratzt", "habt gekratzt", "haben gekratzt"), "kratzen", "He rascado un poco la puerta-Ich habe die Tür leicht gekratzt"];
+var trennen = [new Verbo("trenne", "trennst", "trennt", "trennen", "trennt", "trennen"), new Verbo("habe getrennt", "hast getrennt", "hat getrennt", "haben getrennt", "habt getrennt", "haben getrennt"), "trennen", "Separa la soldadura de la tubería-Trenn die Naht vom Rohr"];
 
-    var trennen = [new Verbo("trenne", "trennst", "trennt", "trennen", "trennt", "trennen"), new Verbo("habe getrennt", "hast getrennt", "hat getrennt", "haben getrennt", "habt getrennt", "haben getrennt"), "trennen", "Separa la soldadura de la tubería-Trenn die Naht vom Rohr"];
+var anfangen = [new Verbo("fange an", "fängst an", "fängt an", "fangen an", "fangt an", "fangen an"), new Verbo("habe angefangen", "hast angefangen", "hat angefangen", "haben angefangen", "habt angefangen", "haben angefangen"), "anfangen", "Primero empiezo yo y luego es tu turno-	Zuerst fange ich an und danach bist du daran"];
 
-    var anfangen = [new Verbo("fange an", "fängst an", "fängt an", "fangen an", "fangt an", "fangen an"), new Verbo("habe angefangen", "hast angefangen", "hat angefangen", "haben angefangen", "habt angefangen", "haben angefangen"), "an·fangen", "Primero empiezo yo y luego es tu turno-Erst fange ich an und danach bist du daran"];
+var aufmachen = [new Verbo("mache auf", "machst auf", "macht auf", "machen auf", "macht auf", "machen auf"), new Verbo("habe aufgemacht", "hast aufgemacht", "hat aufgemacht", "haben aufgemacht", "habt aufgemacht", "haben aufgemacht"), "aufmachen", "No debes abrir la ventana-Du darfst nicht das Fenster aufmachen"];
 
-    var aufmachen = [new Verbo("mache auf", "machst auf", "macht auf", "machen auf", "macht auf", "machen auf"), new Verbo("habe aufgemacht", "hast aufgemacht", "hat aufgemacht", "haben aufgemacht", "habt aufgemacht", "haben aufgemacht"), "auf·machen", "No debes abrir la ventana-Du darfst nicht das Fenster aufmachen"];
+var nehmen = [new Verbo("nehme", "nimmst", "nimmt", "nehmen", "nehmt", "nehmen"), new Verbo("habe genommen", "hast genommen", "hat genommen", "haben genommen", "habt genommen", "haben genommen"), "nehmen", "Coge tu abrigo, nos vamos fuera-Nimm deinen Mantel, wir gehen nach draußen"];
 
-    var nehmen = [new Verbo("nehme", "nimmst", "nimmt", "nehmen", "nehmt", "nehmen"), new Verbo("habe genommen", "hast genommen", "hat genommen", "haben genommen", "habt genommen", "haben genommen"), "nehmen", "Coge tu abrigo, nos vamos fuera-Nimm deinen Mantel, wir gehen nach draußen"];
+var aufstehen = [new Verbo("stehe auf", "stehst auf", "steht auf", "stehen auf", "steht auf", "stehen auf"), new Verbo("bin aufgestanden", "bist aufgestanden", "ist aufgestanden", "sind aufgestanden", "seid aufgestanden", "sind aufgestanden"), "aufstehen", "Ella se levanta cada mañana a las seis-Sie steht jeden Morgen um 6 Uhr auf"];
 
-    var aufstehen = [new Verbo("stehe auf", "stehst auf", "steht auf", "stehen auf", "steht auf", "stehen auf"), new Verbo("bin aufgestanden", "bist aufgestanden", "ist aufgestanden", "sind aufgestanden", "seid aufgestanden", "sind aufgestanden"), "auf·stehen", "Ya podéis levantaros-Ihr dürft jetzt aufstehen"];
+var abtrocknen = [new Verbo("trockne ab", "trocknest ab", "trocknet ab", "trocknen ab", "trocknet ab", "trocknen ab"), new Verbo("habe abgetrocknet", "hast abgetrocknet", "hat abgetrocknet", "haben abgetrocknet", "habt abgetrocknet", "haben abgetrocknet"), "abtrocknen", "Puedes secarte las manos con esta toalla-Du kannst dir deine Hände mit diesem Handtuch abtrocknen"];
 
-    var abtrocknen = [new Verbo("trockne ab", "trocknest ab", "trocknet ab", "trocknen ab", "trocknet ab", "trocknen ab"), new Verbo("habe abgetrocknet", "hast abgetrocknet", "hat abgetrocknet", "haben abgetrocknet", "habt abgetrocknet", "haben abgetrocknet"), "ab·trocknen", "Puedes secarte las manos con esta toalla-Du kannst dir deine Hände mit diesem Handtuch abtrocknen"];
+var anmachen = [new Verbo("mache an", "machst an", "macht an", "machen an", "macht an", "machen an"), new Verbo("habe angemacht", "hast angemacht", "hat angemacht", "haben angemacht", "habt angemacht", "haben angemacht"), "anmachen", "¿Puedes encender la luz?-Kannst du das Licht anmachen?"];
 
-    var anmachen = [new Verbo("mache an", "machst an", "macht an", "machen an", "macht an", "machen an"), new Verbo("habe angemacht", "hast angemacht", "hat angemacht", "haben angemacht", "habt angemacht", "haben angemacht"), "an·machen", "¿Puedes encender la luz?-Kannst du das Licht anmachen?", "die Lampe anmachen-encender la lámpara&das Radio anmachen-encender la radio&die Heizung anmachen-encender la calefacción"];
+var träumen = [new Verbo("träume", "träumst", "träumt", "träumen", "träumt", "träumen"), new Verbo("habe geträumt", "hast geträumt", "hat geträumt", "haben geträumt", "habt geträumt", "haben geträumt"), "träumen", "Anoche soñé que sabía hablar alemán-Gestern Nacht habe ich geträumt, dass ich Deutsch sprechen konnte"];
 
-    var träumen = [new Verbo("träume", "träumst", "träumt", "träumen", "träumt", "träumen"), new Verbo("habe geträumt", "hast geträumt", "hat geträumt", "haben geträumt", "habt geträumt", "haben geträumt"), "träumen", "Anoche soñé que sabía hablar alemán-Gestern Nacht habe ich geträumt, dass ich Deutsch sprechen konnte"];
+var vorlesen = [new Verbo("lese vor", "liest vor", "liest vor", "lesen vor", "lest vor", "lesen vor"), new Verbo("habe vorgelesen", "hast vorgelesen", "hat vorgelesen", "haben vorgelesen", "habt vorgelesen", "haben vorgelesen"), "vorlesen", "Tienes que leer en alto 5 minutos todos los días-Du musst jeden Tag 5 Minuten vorlesen"];
 
-    var vorlesen = [new Verbo("lese vor", "liest vor", "liest vor", "lesen vor", "lest vor", "lesen vor"), new Verbo("habe vorgelesen", "hast vorgelesen", "hat vorgelesen", "haben vorgelesen", "habt vorgelesen", "haben vorgelesen"), "vor·lesen", "Tienes que leer en alto 5 minutos todos los días-Du musst jeden Tag 5 Minuten vorlesen"];
+var ankommen = [new Verbo("komme an", "kommst an", "kommt an", "kommen an", "kommt an", "kommen an"), new Verbo("bin angekommen", "bist angekommen", "ist angekommen", "sind angekommen", "seid angekommen", "sind angekommen"), "ankommen", "El tren llega a las cinco-Der Zug kommt um 17 Uhr an"];
 
-    var ankommen = [new Verbo("komme an", "kommst an", "kommt an", "kommen an", "kommt an", "kommen an"), new Verbo("bin angekommen", "bist angekommen", "ist angekommen", "sind angekommen", "seid angekommen", "sind angekommen"), "an·kommen", "Debe estar llegando-Er muss bald ankommen"];
+var verkaufen = [new Verbo("verkaufe", "verkaufst", "verkauft", "verkaufen", "verkauft", "verkaufen"), new Verbo("habe verkauft", "hast verkauft", "hat verkauft", "haben verkauft", "habt verkauft", "haben verkauft"), "verkaufen", "He vendido una casa de madera-Ich habe ein Holzhaus verkauft"];
 
-    var verkaufen = [new Verbo("verkaufe", "verkaufst", "verkauft", "verkaufen", "verkauft", "verkaufen"), new Verbo("habe verkauft", "hast verkauft", "hat verkauft", "haben verkauft", "habt verkauft", "haben verkauft"), "verkaufen", "La jefa ha vendido una casa de madera-Die Chefin hat ein Holzhaus verkauft"];
+var kaufen = [new Verbo("kaufe", "kaufst", "kauft", "kaufen", "kauft", "kaufen"), new Verbo("habe gekauft", "hast gekauft", "hat gekauft", "haben gekauft", "habt gekauft", "haben gekauft"), "kaufen", "He comprado material-Ich habe Material gekauft"];
 
-    var kaufen = [new Verbo("kaufe", "kaufst", "kauft", "kaufen", "kauft", "kaufen"), new Verbo("habe gekauft", "hast gekauft", "hat gekauft", "haben gekauft", "habt gekauft", "haben gekauft"), "kaufen", "He comprado material-Ich habe Material gekauft"];
+// var arbeiten =cambiar [new Verbo("arbeite", "arbeitest", "arbeitet", "arbeiten", "arbeitet", "arbeiten"), new Verbo("habe gearbeitet", "hast gearbeitet", "hat gearbeitet", "haben gearbeitet", "habt gearbeitet", "haben gearbeitet"), "arbeiten", "Primero trabajamos y después hacemos una pausa-Zuerst arbeiten wir und danach machen wir eine Pause"];
 
-    // var arbeiten =cambiar [new Verbo("arbeite", "arbeitest", "arbeitet", "arbeiten", "arbeitet", "arbeiten"), new Verbo("habe gearbeitet", "hast gearbeitet", "hat gearbeitet", "haben gearbeitet", "habt gearbeitet", "haben gearbeitet"), "arbeiten", "Primero trabajamos y después descansamos-Zuerst arbeiten wir und danach ruhen wir uns aus"];
+var reinigen = [new Verbo("reinige", "reinigst", "reinigt", "reinigen", "reinigt", "reinigen"), new Verbo("habe gereinigt", "hast gereinigt", "hat gereinigt", "haben gereinigt", "habt gereinigt", "haben gereinigt"), "reinigen", "Él limpia las herramientas-Er reinigt die Werkzeuge"];
 
-    var reinigen = [new Verbo("reinige", "reinigst", "reinigt", "reinigen", "reinigt", "reinigen"), new Verbo("habe gereinigt", "hast gereinigt", "hat gereinigt", "haben gereinigt", "habt gereinigt", "haben gereinigt"), "reinigen", "Él limpia las herramientas-Er reinigt  die Werkzeuge"];
+var essen = [new Verbo("esse", "isst", "isst", "essen", "esst", "essen"), new Verbo("habe gegessen", "hast gegessen", "hat gegessen", "haben gegessen", "habt gegessen", "haben gegessen"), "essen", "Comemos pollo-Wir essen Hähnchen"];
 
-    var essen = [new Verbo("esse", "isst", "isst", "essen", "esst", "essen"), new Verbo("habe gegessen", "hast gegessen", "hat gegessen", "haben gegessen", "habt gegessen", "haben gegessen"), "essen", "Nosotros comemos pollo-Wir essen Hähnchen"];
+var sehen = [new Verbo("sehe", "siehst", "sieht", "sehen", "seht", "sehen"), new Verbo("habe gesehen", "hast gesehen", "hat gesehen", "haben gesehen", "habt gesehen", "haben gesehen"), "sehen", "Él no ve de lejos-Er kann nicht weit sehen"]; 
 
-    var sehen = [new Verbo("sehe", "siehst", "sieht", "sehen", "seht", "sehen"), new Verbo("habe gesehen", "hast gesehen", "hat gesehen", "haben gesehen", "habt gesehen", "haben gesehen"), "sehen", "Vemos la tele-Wir sehen fern"];
+var tragen = [new Verbo("trage", "trägst", "trägt", "tragen", "tragt", "tragen"), new Verbo("habe getragen", "hast getragen", "hat getragen", "haben getragen", "habt getragen", "haben getragen"), "tragen", "Debes llevar puesto el uniforme durante el trabajo-Du musst die Uniform auf der Arbeit tragen"];
 
-    var tragen = [new Verbo("trage", "trägst", "trägt", "tragen", "tragt", "tragen"), new Verbo("habe getragen", "hast getragen", "hat getragen", "haben getragen", "habt getragen", "haben getragen"), "tragen", "Debes llevar puesto el uniforme durante el trabajo-Du musst die Uniform auf der Arbeit tragen"];
+var suchen = [new Verbo("suche", "suchst", "sucht", "suchen", "sucht", "suchen"), new Verbo("habe gesucht", "hast gesucht", "hat gesucht", "haben gesucht", "habt gesucht", "haben gesucht"), "suchen", "Busco la parada de autobús-Ich suche die Bushaltestelle"];
 
-    var suchen = [new Verbo("suche", "suchst", "sucht", "suchen", "sucht", "suchen"), new Verbo("habe gesucht", "hast gesucht", "hat gesucht", "haben gesucht", "habt gesucht", "haben gesucht"), "suchen", "Busco la parada de autobús-Ich suche die Bushaltestelle"];
+var brauchen = [new Verbo("brauche", "brauchst", "braucht", "brauchen", "braucht", "brauchen"), new Verbo("habe gebraucht", "hast gebraucht", "hat gebraucht", "haben gebraucht", "habt gebraucht", "haben gebraucht"), "brauchen", "Necesito un destornillador-Ich brauche einen Schraubenzieher"];
 
-    var brauchen = [new Verbo("brauche", "brauchst", "braucht", "brauchen", "braucht", "brauchen"), new Verbo("habe gebraucht", "hast gebraucht", "hat gebraucht", "haben gebraucht", "habt gebraucht", "haben gebraucht"), "brauchen", "Necesito un destornillador-Ich brauche einen Schraubenzieher"];
+// var schliessen = cambiar[new Verbo("schließe", "schließt", "schließt", "schließen", "schließt", "schließen"), new Verbo("habe geschlossen", "hast geschlossen", "hat geschlossen", "haben geschlossen", "habt geschlossen", "haben geschlossen"), "anschließen", "Conecta la manguera al grifo-Schließ den Schlauch an den Wasserhahn an"];
 
-    // var schliessen = cambiar[new Verbo("schließe", "schließt", "schließt", "schließen", "schließt", "schließen"), new Verbo("habe geschlossen", "hast geschlossen", "hat geschlossen", "haben geschlossen", "habt geschlossen", "haben geschlossen"), "an·schließen", "Conecta la manguera al grifo-Schließ den Schlauch an den Wasserhahn an"];
+var konfigurieren = [new Verbo("konfiguriere", "konfigurierst", "konfiguriert", "konfigurieren", "konfiguriert", "konfigurieren"), new Verbo("habe konfiguriert", "hast konfiguriert", "hat konfiguriert", "haben konfiguriert", "habt konfiguriert", "haben konfiguriert"), "konfigurieren", "Debe configurar el ordenador-Sie müssen den Computer konfigurieren"];
 
-    var konfigurieren = [new Verbo("konfiguriere", "konfigurierst", "konfiguriert", "konfigurieren", "konfiguriert", "konfigurieren"), new Verbo("habe konfiguriert", "hast konfiguriert", "hat konfiguriert", "haben konfiguriert", "habt konfiguriert", "haben konfiguriert"), "konfigurieren", "Debe configurar el ordenador-Sie müssen den Computer konfigurieren"];
+var erhöhen = [new Verbo("erhöhe", "erhöhst", "erhöht", "erhöhen", "erhöht", "erhöhen"), new Verbo("habe erhöht", "hast erhöht", "habe erhöht", "haben erhöht", "habt erhöht", "haben erhöht"), "erhöhen", "Aumenta el brillo-Erhöht die Helligkeit"];
 
-    // var einfügen = cambiar[new Verbo("füge ein", "fügst ein", "fügt ein", "fügen ein", "fügt ein", "fügen ein"), new Verbo("habe eingefügt", "hast eingefügt", "hat eingefügt", "haben eingefügt", "habt eingefügt", "haben eingefügt"), "ein·fügen", "Para pegar pulsa ctrl+v-Drücke ctr+v um einzufügen"];
+var einfügen = [new Verbo("füge ein", "fügst ein", "fügt ein", "fügen ein", "fügt ein", "fügen ein"), new Verbo("habe eingefügt", "hast eingefügt", "hat eingefügt", "haben eingefügt", "habt eingefügt", "haben eingefügt"), "einfügen", "Para pegar pulsa ctrl+v-Drücke ctr+v um einzufügen"];
 
-    // var eliminieren = cambiar[new Verbo("eliminiere", "eliminierst", "eliminiert", "eliminieren", "eliminiert", "eliminieren"), new Verbo("habe eliminiert", "hast eliminiert", "habe eliminiert", "haben eliminiert", "habt eliminiert", "haben eliminiert"), "löschen", "Elimino virus para evitar problemas-Ich eliminiere Viren, um Probleme zu vermeiden"];
+// var neustarte = cambiar[new Verbo("starte neu", "startest neu", "startet neu", "starten neu", "startet neu", "starten neu"), new Verbo("habe neugestartet", "hast neugestartet", "hat neugestartet", "haben neugestartet", "habt neugestartet", "haben neugestartet"), "neustarten", "Reinicio el portátil para actualizarlo-Ich starte den Laptop neu, um ihn zu aktualisieren"];
 
-    // var neustarte = cambiar[new Verbo("starte neu", "startest neu", "startet neu", "starten neu", "startet neu", "starten neu"), new Verbo("habe neugestartet", "hast neugestartet", "hat neugestartet", "haben neugestartet", "habt neugestartet", "haben neugestartet"), "neu·starten", "Reinicio el portátil para actualizarlo-Ich starte den Laptop neu, um ihn zu aktualisieren"];
+var speichern = [new Verbo("speichere", "speicherst", "speichert", "speichern", "speichert", "speichern"), new Verbo("habe gespeichert", "hast gespeichert", "hat gespeichert", "haben gespeichert", "habt gespeichert", "haben gespeichert"), "speichern", "Almaceno información en el disco duro-Ich speichere Informationen auf der Festplatte"];
 
-    var speichern = [new Verbo("speichere", "speicherst", "speichert", "speichern", "speichert", "speichern"), new Verbo("habe gespeichert", "hast gespeichert", "hat gespeichert", "haben gespeichert", "habt gespeichert", "haben gespeichert"), "speichern", "Almaceno información en el disco duro-Ich speichere Informationen auf der Festplatte"];
+// var tauschen = cambiar[new Verbo("tausche", "tauschst", "tauscht", "tauschen", "tauscht", "tauschen"), new Verbo("habe ge-tauscht", "hast ge-tauscht", "habe ge-tauscht", "haben ge-tauscht", "habt ge-tauscht", "haben ge-tauscht"), "ersetzen", "hay que cambiar la clavija porque esa ya no funciona-Es ist nötig, den Stift zu tauschen, weil diese nicht mehr funktionert"];
 
-    // var tauschen = cambiar[new Verbo("tausche", "tauschst", "tauscht", "tauschen", "tauscht", "tauschen"), new Verbo("habe ge-tauscht", "hast ge-tauscht", "habe ge-tauscht", "haben ge-tauscht", "habt ge-tauscht", "haben ge-tauscht"), "ersetzen", "hay que cambiar la clavija porque esa ya no funciona-Es ist nötig, den Stift zu tauschen, weil diese nicht mehr funktionert"];
+var verkabeln = [new Verbo("verkab(e)le", "verkabelst", "verkabelt", "verkabeln", "verkabelt", "verkabeln"), new Verbo("habe verkabelt", "hast verkabelt", "hat verkabelt", "haben verkabelt", "habt verkabelt", "haben verkabelt"), "verkabeln", "Cableo la red eléctrica-Ich verkable den Motor"];
 
-    var einstecken = [new Verbo("stecke ein", "steckst ein", "steckt ein", "stecken ein", "steckt ein", "stecken ein"), new Verbo("habe eingesteckt", "hast eingesteckt", "hat eingesteckt", "haben eingesteckt", "habt eingesteckt", "haben eingesteckt"), "ein·stecken", "Enchufo el taladro-Ich stecke den Bohrer ein"];
+var legen = [new Verbo("lege", "legst", "legt", "legen", "legt", "legen"), new Verbo("habe gelegt", "hast gelegt", "hat gelegt", "haben gelegt", "habt gelegt", "haben gelegt"), "legen", "Nosotros colocamos los libros en la estantería-Wir legen die Bücher auf das Regal"];
 
-    var verkabeln = [new Verbo("verkab(e)le", "verkabelst", "verkabelt", "verkabeln", "verkabelt", "verkabeln"), new Verbo("habe verkabelt", "hast verkabelt", "hat verkabelt", "haben verkabelt", "habt verkabelt", "haben verkabelt"), "verkabeln", "Cableo la red eléctrica-Ich verkable den Motor"];
+var kontrollieren = [new Verbo("kontrolliere", "kontrollierst", "kontrolliert", "kontrollieren", "kontrolliert", "kontrollieren"), new Verbo("habe kontrolliert", "hast kontrolliert", "hat kontrolliert", "haben kontrolliert", "habt kontrolliert", "haben kontrolliert"), "kontrollieren", "Compruebe las conexiones eléctricas-Kontrollieren Sie die Anschlüsse"];
 
-    var legen = [new Verbo("lege", "legst", "legt", "legen", "legt", "legen"), new Verbo("habe gelegt", "hast gelegt", "hat gelegt", "haben gelegt", "habt gelegt", "haben gelegt"), "legen", "Nosotros colocamos los libros en la estantería-Wir legen die Bücher auf das Regal"];
+// var fallen = cambiar[new Verbo("falle herunter", "fällst herunter", "fällt herunter", "fallen herunter", "fallt herunter", "fallen herunter"), new Verbo("bin heruntergefallen", "bist heruntergefallen", "ist heruntergefallen", "sind heruntergefallen", "seid heruntergefallen", "sind heruntergefallen"), "herunterfallen", "Se me ha caído el tornillo-Die Schraube ist mir heruntergefallen"];
 
-    var kontrollieren = [new Verbo("kontrolliere", "kontrollierst", "kontrolliert", "kontrollieren", "kontrolliert", "kontrollieren"), new Verbo("habe kontrolliert", "hast kontrolliert", "hat kontrolliert", "haben kontrolliert", "habt kontrolliert", "haben kontrolliert"), "kontrollieren", "Compruebe las conexiones eléctricas-Kontrollieren Sie die Anschlüsse"];
+var befehlen = [new Verbo("befehle", "befiehlst", "befiehlt", "befehlen", "befehlt", "befehlen"), new Verbo("habe befohlen", "hast befohlen ", "hat befohlen", "haben befohlen", "habt befohlen", "haben befohlen"), "befehlen", "Te ordeno que te calles-Ich befehle dir zu schweigen"];
 
-    var fallen = [new Verbo("falle", "fällst", "fällt", "fallen", "fallt", "fallen"), new Verbo("bin gefallen", "bist gefallen", "ist gefallen", "sind gefallen", "seid gefallen", "sind gefallen"), "fallen", "Se ha caído el tornillo-Die Schraube ist gefallen"];
+var lesen = [new Verbo("lese", "liest", "liest", "lesen", "lest", "lesen"), new Verbo("habe gelesen", "hast gelesen", "hat gelesen", "haben gelesen", "habt gelesen", "haben gelesen"), "lesen", "Debes leer las instrucciones de seguridad-Du musst die Sicherheitsunterweisungen lesen"];
 
-    var befehlen = [new Verbo("befehle", "befiehlst", "befiehlt", "befehlen", "befehlt", "befehlen"), new Verbo("habe befohlen", "hast befohlen ", "hat befohlen", "haben befohlen", "habt befohlen", "haben befohlen"), "befehlen", "Te ordeno que te calles-Ich befehle dir zu schweigen"];
+var können = [new Verbo("kann", "kannst", "kann", "können", "könnt", "können"), new Verbo("konnte", "konntest", "konnte", "konnten", "konntet", "konnten"), "können", "No puedo desenroscar el tornillo con esta herramienta-Ich kann die Schraube mit diesem Werkzeug nicht abschrauben"];
 
-    var lesen = [new Verbo("lese", "liest", "liest", "lesen", "lest", "lesen"), new Verbo("habe gelesen", "hast gelesen", "hat gelesen", "haben gelesen", "habt gelesen", "haben gelesen"), "lesen", "Debes leer las instrucciones de seguridad-Du musst die Sicherheitsunterweisungen lesen"];
+var mögen = [new Verbo("mag", "magst", "mag", "mögen", "mögt", "mögen"), new Verbo("mochte", "mochtest", "mochte", "mochten", "mochtet", "mochten"), "mögen", "Me gusta mi trabajo-Ich mag meine Arbeit"];
 
-    var können = [new Verbo("kann", "kannst", "kann", "können", "könnt", "können"), new Verbo("konnte", "konntest", "konnte", "konnten", "konntet", "konnten"), "können", "No puedo desenroscar el tornillo con esta herramienta-Ich kann die Schraube mit diesem Werkzeug nicht abschrauben"];
+var fragen = [new Verbo("frage", "fragst", "fragt", "fragen", "fragt", "fragen"), new Verbo("habe gefragt", "hast gefragt", "hat gefragt", "haben gefragt", "habt gefragt", "haben gefragt"), "fragen", "Ellos preguntan al camarero por la carta-Sie fragen den Kellner nach der Speisekarte"];
 
-    var mögen = [new Verbo("mag", "magst", "mag", "mögen", "mögt", "mögen"), new Verbo("mochte", "mochtest", "mochte", "mochten", "mochtet", "mochten"), "mögen", "Me gusta mi trabajo-Ich mag meine Arbeit"];
+var verstehen = [new Verbo("vertehe", "verstehst", "versteht", "verstehen", "versteht", "verstehen"), new Verbo("habe verstanden", "hast verstanden", "hat verstanden", "haben verstanden", "habt verstanden", "haben verstanden"), "verstehen", "No entiendo lo que quieres decir-Ich verstehe nicht was du meinst"];
 
-    var fragen = [new Verbo("frage", "fragst", "fragt", "fragen", "fragt", "fragen"), new Verbo("habe gefragt", "hast gefragt", "hat gefragt", "haben gefragt", "habt gefragt", "haben gefragt"), "fragen", "Ellos preguntan al camarero por la carta-Sie fragen den Kellner nach der Speisekarte"];
+var wissen = [new Verbo("weiß", "weißt", "weiß", "wissen", "wisst", "wissen"), new Verbo("habe gewusst", "hast gewusst", "hat gewusst", "haben gewusst", "habt gewusst", "haben gewusst"), "wissen", "No sabe qué quiere hacer hoy-Er weiß nicht, was er heute machen will"];
 
-    var verstehen = [new Verbo("vertehe", "verstehst", "versteht", "verstehen", "versteht", "verstehen"), new Verbo("habe verstanden", "hast verstanden", "hat verstanden", "haben verstanden", "habt verstanden", "haben verstanden"), "verstehen", "No entiendo lo que quieres decir-Ich verstehe nicht was du meinst"];
+// var zünden = cambiar[new Verbo("zünde", "zündest", "zündet", "zünden", "zündet", "zünden"), new Verbo("habe ge-zündet", "hast ge-zündet", "habe ge-zündet", "haben ge-zündet", "habt ge-zündet", "haben ge-zündet"), "anzünden", "Enciendo la cerilla-Ich zünde das Streichholz an"];
 
-    var wissen = [new Verbo("weiß", "weißt", "weiß", "wissen", "wisst", "wissen"), new Verbo("habe gewusst", "hast gewusst", "hat gewusst", "haben gewusst", "habt gewusst", "haben gewusst"), "wissen", "No sabe qué quiere hacer hoy-Er weiß nicht, was er heute machen will"];
+var beenden = [new Verbo("beende", "beendest", "beendet", "beenden", "beendet", "beenden"), new Verbo("habe beendet", "hast beendet", "hat beendet", "haben beendet", "habt beendet", "haben beendet"), "beenden", "He terminado el curso de formación profesional-Ich habe die Ausbildung beendet"];
 
-    // var zünden = cambiar[new Verbo("zünde", "zündest", "zündet", "zünden", "zündet", "zünden"), new Verbo("habe ge-zündet", "hast ge-zündet", "habe ge-zündet", "haben ge-zündet", "habt ge-zündet", "haben ge-zündet"), "an·zünden", "Enciendo la cerilla-Ich zünde das Streichholz an"];
+var zurücksetzen = [new Verbo("setze zurück", "setzt zurück", "setzt zurück", "setzen zurück", "setzt zurück", "setzen zurück"), new Verbo("habe zurückgesetzt", "hast zurückgesetzt", "hat zurückgesetzt", "haben zurückgesetzt", "habt zurückgesetzt", "haben zurückgesetzt"), "zurücksetzen", "Restablece los valores de fábrica hoy-Setz heute die Einstellungen auf die Werkeinstellungen zurück"];
 
-    var beenden = [new Verbo("beende", "beendest", "beendet", "beenden", "beendet", "beenden"), new Verbo("habe beendet", "hast beendet", "hat beendet", "haben beendet", "habt beendet", "haben beendet"), "beenden", "Finalizar una tarea-Eine Aufgabe beenden"];
+var hören = [new Verbo("höre", "hörst", "hört", "hören", "hört", "hören"), new Verbo("habe gehört", "hast gehört", "hat gehört", "haben gehört", "habt gehört", "haben gehört"), "hören","Con los tapones para los oídos no se oye nada-Mit der Gehörschutzstöpseln kann man nichts hören"];
 
-    var zurücksetzen = [new Verbo("setze zurück", "setzt zurück", "setzt zurück", "setzen zurück", "setzt zurück", "setzen zurück"), new Verbo("habe zurückgesetzt", "hast zurückgesetzt", "hat zurückgesetzt", "haben zurückgesetzt", "habt zurückgesetzt", "haben zurückgesetzt"), "zurück·setzen", "Restablece los valores de fábrica hoy-Setz heute die Einstellungen auf die Werkeinstellungen zurück"];
+var prüfen = [new Verbo("prüfe", "prüfst", "prüft", "prüfen", "prüft", "prüfen"), new Verbo("habe geprüft", "hast geprüft", "hat geprüft", "haben geprüft", "habt geprüft", "haben geprüft"), "prüfen", "Estos instrumentos de medición han sido evaluados oficialmente-Diese Meßgeräte sind amtlich geprüft"];
 
-    var hören = [new Verbo("höre", "hörst", "hört", "hören", "hört", "hören"), new Verbo("habe gehört", "hast gehört", "hat gehört", "haben gehört", "habt gehört", "haben gehört"), "hören", "Con los tapones para los oídos no se oye nada-Mit der Gehörschutzstöpseln kann man nichts hören"];
+var verpassen = [new Verbo("verpasse", "verpasst", "verpasst", "verpassen", "verpasst", "verpassen"), new Verbo("habe verpasst", "hast verpasst", "habe verpasst", "haben verpasst", "habt verpasst", "haben verpasst"), "verpassen", "Se me ha escapado el bus-Ich habe den Bus verpasst"];
 
-    var prüfen = [new Verbo("prüfe", "prüfst", "prüft", "prüfen", "prüft", "prüfen"), new Verbo("habe geprüft", "hast geprüft", "hat geprüft", "haben geprüft", "habt geprüft", "haben geprüft"), "prüfen", "Estos instrumentos de medición han sido evaluados oficialmente-Diese Meßgeräte sind amtlich geprüft"];
+var laufen = [new Verbo("laufe", "läufst", "läuft", "laufen", "lauft", "laufen"), new Verbo("bin gelaufen ", "bist gelaufen", "ist gelaufen", "sind gelaufen", "seid gelaufen", "sind gelaufen"), "laufen", "Corro muy rápido-Ich laufe sehr schnell"];
 
-    var verpassen = [new Verbo("verpasse", "verpasst", "verpasst", "verpassen", "verpasst", "verpassen"), new Verbo("habe verpasst", "hast verpasst", "habe verpasst", "haben verpasst", "habt verpasst", "haben verpasst"), "verpassen", "Se me ha escapado el bus-Ich habe den Bus verpasst"];
+var füttern = [new Verbo("füttere", "fütterst", "füttert", "füttern", "füttert", "füttern"), new Verbo("habe gefüttert", "hast gefüttert", "hat gefüttert", "haben gefüttert", "habt gefüttert", "haben gefüttert"), "füttern", "Hoy tienes que dar de comer a los conejos-Heute musst du die Kaninchen füttern"];
 
-    var laufen = [new Verbo("laufe", "läufst", "läuft", "laufen", "lauft", "laufen"), new Verbo("bin gelaufen ", "bist gelaufen", "ist gelaufen", "sind gelaufen", "seid gelaufen", "sind gelaufen"), "laufen", "Corro muy rápido-Ich laufe sehr schnell"];
+var erledigen = [new Verbo("erledige", "erledigst", "erledigt", "erledigen", "erledigt", "erledigen"), new Verbo("habe erledigt", "hast erledigt", "hat erledigt", "haben erledigt", "habt erledigt", "haben erledigt"), "erledigen", "Tenemos que terminar la tarea rápido-Wir müssen die Aufgabe schnell erledigen"];
 
-    var füttern = [new Verbo("füttere", "fütterst", "füttert", "füttern", "füttert", "füttern"), new Verbo("habe gefüttert", "hast gefüttert", "hat gefüttert", "haben gefüttert", "habt gefüttert", "haben gefüttert"), "füttern", "Hoy tienes que dar de comer a los conejos-Heute musst du die Kaninchen füttern"];
+var bringen = [new Verbo("bringe", "bringst", "bringt", "bringen", "bringt", "bringen"), new Verbo("habe gebracht", "hast gebracht", "hat gebracht", "haben gebracht", "habt gebracht", "haben gebracht"), "bringen", "Trae la caja de herramientas-Bring die Werkzeugskiste"];
 
-    var erledigen = [new Verbo("erledige", "erledigst", "erledigt", "erledigen", "erledigt", "erledigen"), new Verbo("habe erledigt", "hast erledigt", "hat erledigt", "haben erledigt", "habt erledigt", "haben erledigt"), "erledigen", "Las tareas deben realizarse como muy tarde después de la cena-Die Aufgaben müssen spätestens nach dem Abendessen erledigt werden"];
+var unterlassen = [new Verbo("lasse unter", "lässt unter", "lässt unter", "lassen unter", "lasst unter", "lassen unter"), new Verbo("habe untergelassen", "hast untergelassen", "hat untergelassen", "haben untergelassen", "habt untergelassen", "haben untergelassen"), "unterlassen", "Deja de hacer eso-Unterlass das!"];
 
-    var bringen = [new Verbo("bringe", "bringst", "bringt", "bringen", "bringt", "bringen"), new Verbo("habe gebracht", "hast gebracht", "hat gebracht", "haben gebracht", "habt gebracht", "haben gebracht"), "bringen", "Trae los huevos dentro-Bring die Eier rein"];
+var bleiben = [new Verbo("bleibe", "bleibst", "bleibt", "bleiben", "bleibt", "bleiben"), new Verbo("bin geblieben", "bist geblieben", "ist geblieben", "sind geblieben", "seid geblieben", "sind geblieben"), "bleiben", "¿Cuánto tiempo te quedas en Alemania?-Wie viel Zeit bleibst du in Deutschland?"];
 
-    var unterlassen = [new Verbo("lasse unter", "lässt unter", "lässt unter", "lassen unter", "lasst unter", "lassen unter"), new Verbo("habe untergelassen", "hast untergelassen", "hat untergelassen", "haben untergelassen", "habt untergelassen", "haben untergelassen"), "unterlassen", "Deja de hacer eso-Unterlass das!"];
+var kehren = [new Verbo("kehre", "kehrst", "kehrt", "kehren", "kehrt", "kehren"), new Verbo("habe gekehrt", "hast gekehrt", "hat gekehrt", "haben gekehrt", "habt gekehrt", "haben gekehrt"), "kehren", "El tren va a Fráncfort y vuelve desde allí-Der Zug fährt nach Frankfurt und kehrt dort"];
 
-    var bleiben = [new Verbo("bleibe", "bleibst", "bleibt", "bleiben", "bleibt", "bleiben"), new Verbo("bin geblieben", "bist geblieben", "ist geblieben", "sind geblieben", "seid geblieben", "sind geblieben"), "bleiben", "¿Te quedas con nosotros?-Bleibst du mit uns?"];
+var wischen = [new Verbo("wische", "wischst", "wischt", "wischen", "wischt", "wischen"), new Verbo("habe gewischt", "hast gewischt", "hat gewischt", "haben gewischt", "habt gewischt", "haben gewischt"), "wischen", "Limpia la mesa con un trapo-wische den Tisch mit einem Lappen"];
 
-    var kehren = [new Verbo("kehre", "kehrst", "kehrt", "kehren", "kehrt", "kehren"), new Verbo("habe gekehrt", "hast gekehrt", "hat gekehrt", "haben gekehrt", "habt gekehrt", "haben gekehrt"), "kehren", "El tren va a Fráncfort y vuelve desde allí-Der Zug fährt nach Frankfurt und kehrt dort"];
+var bestätigen = [new Verbo("bestätige", "bestätigst", "bestätigt", "bestätigen", "bestätigt", "bestätigen"), new Verbo("habe bestätigt", "hast bestätigt", "hat bestätigt", "haben bestätigt", "habt bestätigt", "haben bestätigt"), "bestätigen", "Confirmo el recibo del paquete-Ich bestätige den Empfang des Pakets"];
 
-    var wischen = [new Verbo("wische", "wischst", "wischt", "wischen", "wischt", "wischen"), new Verbo("habe gewischt", "hast gewischt", "hat gewischt", "haben gewischt", "habt gewischt", "haben gewischt"), "wischen", "Limpia la mesa con un trapo-wische den Tisch mit einem Lappen"];
+var umziehen = [new Verbo("ziehe um", "ziehst um", "zieht um", "ziehen um", "zieht um", "ziehen um"), new Verbo("habe umgezogen", "hast umgezogen", "hat umgezogen", "haben umgezogen", "habt umgezogen", "haben umgezogen"), "umziehen", "Me cambio de ropa para trabajar-Zum Arbeiten ziehe ich mich um"];
 
-    var bestätigen = [new Verbo("bestätige", "bestätigst", "bestätigt", "bestätigen", "bestätigt", "bestätigen"), new Verbo("habe bestätigt", "hast bestätigt", "hat bestätigt", "haben bestätigt", "habt bestätigt", "haben bestätigt"), "bestätigen", "He comprobado los valores-Ich habe die Werte bestätigt"];
+var backen = [new Verbo("backe", "bäckst", "bäckt", "backen", "backt", "backen"), new Verbo("habe gebacken", "hast gebacken", "hat gebacken", "haben gebacken", "habt gebacken", "haben gebacken"), "backen", "Hacemos un pastel en el horno-Wir backen einen Kuchen"];
 
-    var umziehen = [new Verbo("ziehe um", "ziehst um", "zieht um", "ziehen um", "zieht um", "ziehen um"), new Verbo("habe umgezogen", "hast umgezogen", "hat umgezogen", "haben umgezogen", "habt umgezogen", "haben umgezogen"), "um·ziehen", "Me cambio de ropa para trabajar-Zum Arbeiten ziehe ich mich um"];
+var antworten = [new Verbo("antworte", "antwortest", "antwortet", "antworten", "antwortet", "antworten"), new Verbo("habe geantwortet", "hast geantwortet", "hat geantwortet", "haben geantwortet", "habt geantwortet", "haben geantwortet"), "antworten", "Responde a mi pregunta-Antworte auf meine Frage"];
 
-    var backen = [new Verbo("backe", "bäckst", "bäckt", "backen", "backt", "backen"), new Verbo("habe gebacken", "hast gebacken", "hat gebacken", "haben gebacken", "habt gebacken", "haben gebacken"), "backen", "Pon a hornear la pizza-Back die Pizza"];
+var ändern = [new Verbo("ändere", "änderst", "ändert", "ändern", "ändert", "ändern"), new Verbo("habe geändert", "hast geändert", "hat geändert", "haben geändert", "habt geändert", "haben geändert"), "ändern", "En verano cambiamos los horarios de trabajo-Im Sommer ändern wir die Arbeitszeiten"];
 
-    var antworten = [new Verbo("antworte", "antwortest", "antwortet", "antworten", "antwortet", "antworten"), new Verbo("habe geantwortet", "hast geantwortet", "hat geantwortet", "haben geantwortet", "habt geantwortet", "haben geantwortet"), "antworten", "Después de estos ejercicios, responde a las preguntas-Beantworte die Fragen nach den Übungen"];
+var abbiegen = [new Verbo("biege ab", "biegst ab", "biegt ab", "biegen ab", "biegt ab", "biegen ab"), new Verbo("bin abgebogen", "bist abgebogen", "ist abgebogen", "sind abgebogen", "seid abgebogen", "sind abgebogen"), "abbiegen", "Gira a la izquierda-Bieg nach links ab"];
 
-    var ändern = [new Verbo("ändere", "änderst", "ändert", "ändern", "ändert", "ändern"), new Verbo("habe geändert", "hast geändert", "hat geändert", "haben geändert", "habt geändert", "haben geändert"), "ändern", "Algunas personas no cambian nunca-Manche Menschen ändern sich nie"];
+var parken = [new Verbo("parke", "parkst", "parkt", "parken", "parkt", "parken"), new Verbo("habe geparkt", "hast geparkt", "hat geparkt", "haben geparkt", "habt geparkt", "haben geparkt"), "parken", "Aparco el coche-Ich parke das Auto"];
 
-    var abbiegen = [new Verbo("biege ab", "biegst ab", "biegt ab", "biegen ab", "biegt ab", "biegen ab"), new Verbo("bin abgebogen", "bist abgebogen", "ist abgebogen", "sind abgebogen", "seid abgebogen", "sind abgebogen"), "ab·biegen", "Gira a la izquierda-Bieg nach links ab", "nach links abbiegen-girar a la izquierda&nach rechts abbiegen-girar a la derecha&von der Autobahn abbiegen-tomar una salida en la autovía"];
+var bremsen = [new Verbo("bremse", "bremst", "bremst", "bremsen", "bremst", "bremsen"), new Verbo("habe gebremst", "hast gebremst", "hat gebremst", "haben gebremst", "habt gebremst", "haben gebremst"), "bremsen", "El conductor del autobús dio un frenazo-Der Busfahrer hatte zu scharf gebremst"];
 
-    var parken = [new Verbo("parke", "parkst", "parkt", "parken", "parkt", "parken"), new Verbo("habe geparkt", "hast geparkt", "hat geparkt", "haben geparkt", "habt geparkt", "haben geparkt"), "parken", "Aparco el coche-Ich parke das Auto"];
+var überprüfen = [new Verbo("überprüfe", "überprüfst", "überprüft", "überprüfen", "überprüft", "überprüfen"), new Verbo("habe überprüft", "hast überprüft", "hat überprüft", "haben überprüft", "habt überprüft", "haben überprüft"), "überprüfen", "Compruebo que está correcto el cálculo-Ich überprüfe die Berechnung"];
 
-    var bremsen = [new Verbo("bremse", "bremst", "bremst", "bremsen", "bremst", "bremsen"), new Verbo("habe gebremst", "hast gebremst", "hat gebremst", "haben gebremst", "habt gebremst", "haben gebremst"), "bremsen", "El conductor del autobús dio un frenazo-Der Busfahrer hatte zu scharf gebremst"];
+var ausfüllen = [new Verbo("fülle aus", "füllst aus", "füllt aus", "füllen aus", "füllt aus", "füllen aus"), new Verbo("habe ausgefüllt", "hast ausgefüllt", "hat ausgefüllt", "haben ausgefüllt", "habt ausgefüllt", "haben ausgefüllt"), "ausfüllen", "Rellenas el formulario-Du füllst das Formular aus"];
 
-    var demontieren = [new Verbo("demontiere", "demontierst", "demontiert", "demontieren", "demontiert", "demontieren"), new Verbo("habe demontiert", "hast demontiert", "hat demontiert", "haben demontiert", "habt demontiert", "haben demontiert"), "demontieren", "Desmonto el coche-Ich demontiere das Auto"];
+var brechen = [new Verbo("breche", "brichst", "brecht", "brechen", "brecht", "brechen"), new Verbo("habe gebrochen", "hast gebrochen", "hat gebrochen", "haben gebrochen", "habt gebrochen", "haben gebrochen"), "brechen", "Me he roto una pierna en el trabajo-Ich habe mir ein Bein auf der Arbeit gebrochen"];
 
-    var überprüfen = [new Verbo("überprüfe", "überprüfst", "überprüft", "überprüfen", "überprüft", "überprüfen"), new Verbo("habe überprüft", "hast überprüft", "hat überprüft", "haben überprüft", "habt überprüft", "haben überprüft"), "überprüfen", "Compruebo que está correcto el cálculo-Ich überprüfe die Berechnung"];
+var graben = [new Verbo("graben", "gräbst", "gräbt", "graben", "grabt", "graben"), new Verbo("habe gegraben", "hast gegraben", "hat gegraben", "haben gegraben", "habt gegraben", "haben gegraben"), "graben", "Cavo con la pala-Ich grabe mit der Schaufel"];
 
-    var ausfüllen = [new Verbo("fülle aus", "füllst aus", "füllt aus", "füllen aus", "füllt aus", "füllen aus"), new Verbo("habe ausgefüllt", "hast ausgefüllt", "hat ausgefüllt", "haben ausgefüllt", "habt ausgefüllt", "haben ausgefüllt"), "ausfüllen", "Rellenas el formulario-Du füllst das Formular aus"];
+var abbrühen = [new Verbo("brühe ab", "brühst ab", "brüht ab", "brühen ab", "brüht ab", "brühen ab"), new Verbo("habe abgebrüht", "hast abgebrüht", "hat abgebrüht", "haben abgebrüht", "habt abgebrüht", "haben abgebrüht"), "abbrühen", "Primero cuece los tomates y después la carne-Zuerst brühe die Tomaten und dann das Fleisch ab"];
 
-    var brechen = [new Verbo("breche", "brichst", "brecht", "brechen", "brecht", "brechen"), new Verbo("habe gebrochen", "hast gebrochen", "hat gebrochen", "haben gebrochen", "habt gebrochen", "haben gebrochen"), "brechen", "Me he roto una pierna en el trabajo-Ich habe mir ein Bein auf der Arbeit gebrochen"];
+var lernen = [new Verbo("lerne", "lernst", "lernt", "lernen", "lernt", "lernen"), new Verbo("habe gelernt", "hast gelernt", "hat gelernt", "haben gelernt", "habt gelernt", "haben gelernt"), "lernen", "Para trabajar en Alemania se debe aprender alemán-Um in Deutschland zu arbeiten, muss man Deutsch lernen"];
 
-    var graben = [new Verbo("graben", "gräbst", "gräbt", "graben", "grabt", "graben"), new Verbo("habe gegraben", "hast gegraben", "hat gegraben", "haben gegraben", "habt gegraben", "haben gegraben"), "graben", "Cavo con la pala-Ich grabe mit der Schaufel"];
+// var vorlesen = cambiar[new Verbo("lese", "liest", "liest", "lesen", "lest", "lesen"), new Verbo("habe gelesen", "hast gelesen", "hat gelesen", "haben gelesen", "habt gelesen", "haben gelesen"), "lesen", "Leo las instrucciones para el trabajo-Ich lese die Unterweisungen für die Arbeit"];
 
-    var abbrühen = [new Verbo("brühe ab", "brühst ab", "brüht ab", "brühen ab", "brüht ab", "brühen ab"), new Verbo("habe abgebrüht", "hast abgebrüht", "hat abgebrüht", "haben abgebrüht", "habt abgebrüht", "haben abgebrüht"), "ab·brühen", "Primero cuece los tomates y después la carne-Zuerst brühe die Tomaten und dann das Fleisch ab"];
+var annehmen = [new Verbo("nehme an", "nimmst an", "nimmt an", "nehmen an", "nehmt an", "nehmen an"), new Verbo("habe angenommen", "hast angenommen", "hat angenommen", "haben angenommen", "habt angenommen", "haben angenommen"), "annehmen", "Acepto la oferta-Ich nehme das Angebot an"];
 
-    var lernen = [new Verbo("lerne", "lernst", "lernt", "lernen", "lernt", "lernen"), new Verbo("habe gelernt", "hast gelernt", "hat gelernt", "haben gelernt", "habt gelernt", "haben gelernt"), "lernen", "Para trabajar en Alemania se debe aprender alemán-Um in Deutschland zu arbeiten, muss man Deutsch lernen"];
+var abbrechen = [new Verbo("breche ab", "brichst ab", "bricht ab", "brechen ab", "brecht ab", "brechen ab"), new Verbo("habe abgebrochen", "hast abgebrochen", "hat abgebrochen", "haben abgebrochen", "habt abgebrochen", "haben abgebrochen"), "abbrechen", "Él cancela el proceso-Er bricht den Prozess ab"];
 
-    var vorlesen = [new Verbo("lese vor", "liest vor", "liest vor", "lesen vor", "lest vor", "lesen vor"), new Verbo("habe vorgelesen", "hast vorgelesen", "hat vorgelesen", "haben vorgelesen", "habt vorgelesen", "haben vorgelesen"), "vorlesen", "Leo el libro en voz alta-Ich lese das Buch vor"];
+var registrieren = [new Verbo("registriere", "registrierst", "registriert", "registrieren", "registriert", "registrieren"), new Verbo("habe registriert", "hast registriert", "hat registriert", "haben registriert", "habt registriert", "haben registriert"), "registrieren", "Este instrumento de medición registra la humedad del aire-Dieses Messgerät registriert die Luftfeuchtigkeit"];
 
-    var annehmen = [new Verbo("nehme an", "nimmst an", "nimmt an", "nehmen an", "nehmt an", "nehmen an"), new Verbo("habe angenommen", "hast angenommen", "hat angenommen", "haben angenommen", "habt angenommen", "haben angenommen"), "annehmen", "Acepto el contrato-Ich nehme den Vertrag an"];
+var senden = [new Verbo("sende", "sendest", "sendet", "senden", "sendet", "senden"), new Verbo("habe gesendet", "hast gesendet", "hat gesendet", "haben gesendet", "habt gesendet", "haben gesendet"), "senden", "Envías el correo electrónico al profesor-Du sendest die E-Mail an den Lehrer"];
 
-    var abbrechen = [new Verbo("breche ab", "brichst ab", "bricht ab", "brechen ab", "brecht ab", "brechen ab"), new Verbo("habe abgebrochen", "hast abgebrochen", "hat abgebrochen", "haben abgebrochen", "habt abgebrochen", "haben abgebrochen"), "abbrechen", "Él cancela la compra-Er bricht den Kauf ab"];
+var bauen = [new Verbo("baue", "baust", "baut", "bauen", "baut", "bauen"), new Verbo("habe gebaut", "hast gebaut", "hat gebaut", "haben gebaut", "habt gebaut", "haben gebaut"), "bauen", "A su familia le gustaría construir una casa de madera-Seine Familie möchtet ein Holzhaus bauen"];
 
-    var registrieren = [new Verbo("registriere", "registrierst", "registriert", "registrieren", "registriert", "registrieren"), new Verbo("habe registriert", "hast registriert", "hat registriert", "haben registriert", "habt registriert", "haben registriert"), "registrieren", "Este instrumento de medición registra la humedad del aire-Dieses Messgerät registriert die Luftfeuchtigkeit"];
+var hobeln = [new Verbo("hobele", "hobelst", "hobelt", "hobeln", "hobelt", "hobeln"), new Verbo("habe gehobelt", "hast gehobelt", "hat gehobelt", "haben gehobelt", "habt gehobelt", "haben gehobelt"), "hobeln", "Cepillamos la madera-Wir hobeln das Holz"];
 
-    var senden = [new Verbo("sende", "sendest", "sendet", "senden", "sendet", "senden"), new Verbo("habe gesendet", "hast gesendet", "hat gesendet", "haben gesendet", "habt gesendet", "haben gesendet"), "senden", "Envías el correo electrónico al profesor-Du sendest die E-Mail an den Lehrer"];
+var surfen = [new Verbo("surfe", "surfst", "surft", "surfen", "surft", "surfen"), new Verbo("habe gesurft", "hast gesurft", "hat gesurft", "haben gesurft", "habt gesurft", "haben gesurft"), "surfen", "Para encontrar esa información tienes que navegar por Internet-Um diese Informationen zu finden, musst du im Internet surfen"];
 
-    var bauen = [new Verbo("baue", "baust", "baut", "bauen", "baut", "bauen"), new Verbo("habe gebaut", "hast gebaut", "hat gebaut", "haben gebaut", "habt gebaut", "haben gebaut"), "bauen", "Construyo casas de madera-Ich baue Holzhäuser"];
+var herunterladen = [new Verbo("lade herunter", "lädst herunter", "lädt herunter", "laden herunter", "ladet herunter", "laden herunter"), new Verbo("habe heruntergeladen", "hast heruntergeladen", "hat heruntergeladen", "haben heruntergeladen", "habt heruntergeladen", "haben heruntergeladen"), "herunterladen", "descargar películas está prohibido-Filme herunterzuladen ist bestrafbar"];
 
-    var hobeln = [new Verbo("hobele", "hobelst", "hobelt", "hobeln", "hobelt", "hobeln"), new Verbo("habe gehobelt", "hast gehobelt", "hat gehobelt", "haben gehobelt", "habt gehobelt", "haben gehobelt"), "hobeln", "Cepillamos la madera-Wir hobeln das Holz"];
+var erstellen = [new Verbo("erstelle", "erstellst", "erstellt", "erstellen", "erstellt", "erstellen"), new Verbo("habe erstellt", "hast erstellt", "hat erstellt", "haben erstellt", "habt erstellt", "haben erstellt"), "erstellen", "Creo una carpeta nueva-Ich erstelle einen neuen Ordner"];
 
-    var surfen = [new Verbo("surfe", "surfst", "surft", "surfen", "surft", "surfen"), new Verbo("habe gesurft", "hast gesurft", "hat gesurft", "haben gesurft", "habt gesurft", "haben gesurft"), "surfen", "Para encontrar esa información tienes que navegar por Internet-Um diese Informationen zu finden, musst du im Internet surfen"];
+var auswählen = [new Verbo("wähle aus", "wählst aus", "wählt aus", "wählen aus", "wählt aus", "wählen aus"), new Verbo("habe ausgewählt", "hast ausgewählt", "hat ausgewählt", "haben ausgewählt", "habt ausgewählt", "haben ausgewählt"), "auswählen", "Selecciona los archivos del escritorio-Wähle die Dateien des Desktops aus"];
 
-    var herunterladen = [new Verbo("lade herunter", "lädst herunter", "lädt herunter", "laden herunter", "ladet herunter", "laden herunter"), new Verbo("habe heruntergeladen", "hast heruntergeladen", "hat heruntergeladen", "haben heruntergeladen", "habt heruntergeladen", "haben heruntergeladen"), "herunterladen", "descargar películas está prohibido-Filme herunterzuladen ist bestrafbar"];
+var mischen = [new Verbo("mische", "mischst", "mischt", "mischen", "mischt", "mischen"), new Verbo("habe gemischt", "hast gemischt", "hat gemischt", "haben gemischt", "habt gemischt", "haben gemischt"), "mischen", "Para obtener cemento se deben mezclar varias sustancias-Um Zement zu herstellen, muss man verschiedene Substanzen mischen"];
 
-    var erstellen = [new Verbo("erstelle", "erstellst", "erstellt", "erstellen", "erstellt", "erstellen"), new Verbo("habe erstellt", "hast erstellt", "hat erstellt", "haben erstellt", "habt erstellt", "haben erstellt"), "erstellen", "Creo una carpeta nueva-Ich erstelle einen neuen Ordner"];
+var lösen = [new Verbo("löse", "löst", "löst", "lösen", "löst", "lösen"), new Verbo("habe gelöst", "hast gelöst", "hat gelöst", "haben gelöst", "habt gelöst", "haben gelöst"), "lösen", "Afloja los tornillos de la puerta-Löse die Schrauben von der Tür"];
 
-    var auswählen = [new Verbo("wähle aus", "wählst aus", "wählt aus", "wählen aus", "wählt aus", "wählen aus"), new Verbo("habe ausgewählt", "hast ausgewählt", "hat ausgewählt", "haben ausgewählt", "habt ausgewählt", "haben ausgewählt"), "auswählen", "Selecciona los archivos del escritorio-Wähle die Dateien vom Desktop aus"];
+// var anschliessen = cambiar[new Verbo("schließe", "schließt", "schließt", "schließen", "schließt", "schließen"), new Verbo("habe angeschlossen", "hast angeschlossen", "hat angeschlossen", "haben angeschlossen", "habt angeschlossen", "haben angeschlossen"), "anschließen", "Conecta el pen-drive al ordenador-Schließe den USB-Stick am Computer an"];
 
-    var mischen = [new Verbo("mische", "mischst", "mischt", "mischen", "mischt", "mischen"), new Verbo("habe gemischt", "hast gemischt", "hat gemischt", "haben gemischt", "habt gemischt", "haben gemischt"), "mischen", "Para obtener cemento se deben mezclar varias sustancias-Um Zement zu herstellen, muss man verschiedene Substanzen mischen"];
+var verwerten = [new Verbo("verwerte", "verwertst", "verwertet", "verwerten", "verwertet", "verwerten"), new Verbo("habe verwertet", "hast angeschlossen", "hat angeschlossen", "haben angeschlossen", "habt angeschlossen", "haben angeschlossen"), "verwerten", "Él recicla el material-Er verwertet das Material wieder"];
 
-    var lösen = [new Verbo("löse", "löst", "löst", "lösen", "löst", "lösen"), new Verbo("habe gelöst", "hast gelöst", "hat gelöst", "haben gelöst", "habt gelöst", "haben gelöst"), "lösen", "Afloja los tornillos de la puerta-Löse die Schrauben von der Tür"];
+var frühstücken = [new Verbo("frühstücke", "frühstückst", "frühstückt", "frühstücken", "frühstückt", "frühstücken"), new Verbo("habe gefrühstückt", "hast gefrühstückt", "hat gefrühstückt", "haben gefrühstückt", "habt gefrühstückt", "haben gefrühstückt"), "frühstücken", "Nosotros desayunamos en el trabajo-Wir frühstücken auf der Arbeit"];
 
-    // var anschliessen = cambiar[new Verbo("schließe", "schließt", "schließt", "schließen", "schließt", "schließen"), new Verbo("habe angeschlossen", "hast angeschlossen", "hat angeschlossen", "haben angeschlossen", "habt angeschlossen", "haben angeschlossen"), "anschließen", "Conecta el dispositivo USB al ordenador-Schließe das USB-Gerät am Computer an"];
+var feilen = [new Verbo("feile", "feilst", "feilt", "feilen", "feilt", "feilen"), new Verbo("habe gefeilt", "hast gefeilt", "hat gefeilt", "haben gefeilt", "habt gefeilt", "haben gefeilt"), "feilen", "Limo el metal con la lima-Ich feile das Metall mit der Feile"];
 
-    var verwerten = [new Verbo("verwerte", "verwertst", "verwertet", "verwerten", "verwertet", "verwerten"), new Verbo("habe verwertet", "hast angeschlossen", "hat angeschlossen", "haben angeschlossen", "habt angeschlossen", "haben angeschlossen"), "verwerten", "Él recicla el material-Er verwertet das Material wieder"];
+var kriegen = [new Verbo("kriege", "kriegst", "kriegt", "kriegen", "kriegt", "kriegen"), new Verbo("habe gekriegt", "hast gekriegt", "hat gekriegt", "haben gekriegt", "habt gekriegt", "haben gekriegt"), "kriegen", "conseguir un nuevo puesto de trabajo- Eine neue Arbeitsstelle kriegen"];
 
-    var frühstücken = [new Verbo("frühstücke", "frühstückst", "frühstückt", "frühstücken", "frühstückt", "frühstücken"), new Verbo("habe gefrühstückt", "hast gefrühstückt", "hat gefrühstückt", "haben gefrühstückt", "habt gefrühstückt", "haben gefrühstückt"), "frühstücken", "Nosotros desayunamos en el trabajo-Wir frühstücken auf der Arbeit"];
+var verschmutzen = [new Verbo("verschmutze", "verschmutzt", "verschmutzt", "verschmutzen", "verschmutzt", "verschmutzen"), new Verbo("habe verschmutzt", "hast verschmutzt", "hat verschmutzt", "haben verschmutzt", "habt verschmutzt", "haben verschmutzt"), "verschmutzen", "Me han ensueciado el salón con los zapatos de trabajo-Sie haben mein Wohnzimmer mit ihren Arbeitsschuhen versschmutzt"];
 
-    var feilen = [new Verbo("feile", "feilst", "feilt", "feilen", "feilt", "feilen"), new Verbo("habe gefeilt", "hast gefeilt", "hat gefeilt", "haben gefeilt", "habt gefeilt", "haben gefeilt"), "feilen", "Limo metal-Ich feile Metalle"];
+var pflanzen = [new Verbo("pflanze", "pflanzt", "pflanzt", "pflanzen", "pflanzt", "pflanzen"), new Verbo("habe gepflanzt", "hast gepflanzt", "hat gepflanzt", "haben gepflanzt", "habt gepflanzt", "haben gepflanzt"), "pflanzen", "Tenemos que plantar 20 flores nuevas-Wir müssen 20 neuen Blumen pflanzen"];
 
-    var abgraten = [new Verbo("grate ab", "gratest ab", "gratet ab", "graten ab", "gratet ab", "graten ab"), new Verbo("habe abgegratet", "hast abgegratet", "hat abgegratet", "haben abgegratet", "habt abgegratet", "haben abgegratet"), "abgraten", "He pulido metales-Ich habe Metalle abgegratet"];
+var sagen = [new Verbo("sage", "sagst", "sagt", "sagen", "sagt", "sagen"), new Verbo("habe gesagt", "hast gesagt", "hat gesagt", "haben gesagt", "habt gesagt", "haben gesagt"), "sagen", "Te digo como se hace esto-Ich sage dir, wie das gemacht wird"];
 
-    var kriegen = [new Verbo("kriege", "kriegst", "kriegt", "kriegen", "kriegt", "kriegen"), new Verbo("habe gekriegt", "hast gekriegt", "hat gekriegt", "haben gekriegt", "habt gekriegt", "haben gekriegt"), "kriegen", "conseguir un nuevo puesto de trabajo- Eine neue Arbeitsstelle kriegen"];
+var wollen = [new Verbo("will", "willst", "will", "wollen", "wollt", "wollen"), new Verbo("wollte", "wolltest", "wollte", "wollten", "wolltet", "wollten"), "wollen", "¿quieres las bridas?-Willst du die Kabelbinder?"];
 
-    var verschmutzen = [new Verbo("verschmutze", "verschmutzt", "verschmutzt", "verschmutzen", "verschmutzt", "verschmutzen"), new Verbo("habe verschmutzt", "hast verschmutzt", "hat verschmutzt", "haben verschmutzt", "habt verschmutzt", "haben verschmutzt"), "verschmutzen", "Me han ensueciado el salón con los zapatos de trabajo-Sie haben mein Wohnzimmer mit ihren Arbeitsschuhen versschmutzt"];
+var müssen = [new Verbo("muss", "musst", "muss", "müssen", "müsst", "müssen"), new Verbo("musste", "musstest", "musste", "mussten", "musstet", "mussten"), "müssen", "Tengo que arreglar las tres líneas eléctricas-Ich muss die drei Stromleitungen reparieren"];
 
-    var pflanzen = [new Verbo("pflanze", "pflanzt", "pflanzt", "pflanzen", "pflanzt", "pflanzen"), new Verbo("habe gepflanzt", "hast gepflanzt", "hat gepflanzt", "haben gepflanzt", "habt gepflanzt", "haben gepflanzt"), "pflanzen", "Tenemos que plantar 20 flores nuevas-Wir müssen 20 neuen Blumen pflanzen"];
+var kühlen = [new Verbo("kühle", "kühlst", "kühlt", "kühlen", "kühlt", "kühlen"), new Verbo("habe gekühlt", "hast gekühlt", "hat gekühlt", "haben gekühlt", "habt gekühlt", "haben gekühlt"), "kühlen", "El frigorífico no enfría-Der Kühlschrank kühlt nicht"];
 
-    var fixieren = [new Verbo("fixiere", "fixierst", "fixiert", "fixieren", "fixiert", "fixieren"), new Verbo("habe fixiert", "hast fixiert", "hat fixiert", "haben fixiert", "habt fixiert", "haben fixiert"), "fixieren", "Clava la puntilla en el marco-Fixiere die Spitzenbordüre in der Rahmen"];
+var wärmen = [new Verbo("wärme", "wärmst", "wärmt", "wärmen", "wärmt", "wärmen"), new Verbo("habe gewärmt", "hast gewärmt", "hat gewärmt", "haben gewärmt", "habt gewärmt", "haben gewärmt"), "wärmen", "Apenas calienta el sol en el norte de Europa-Die Sonne in Nordeuropa wärmt kaum"];
 
-    var sagen = [new Verbo("sage", "sagst", "sagt", "sagen", "sagt", "sagen"), new Verbo("habe gesagt", "hast gesagt", "hat gesagt", "haben gesagt", "habt gesagt", "haben gesagt"), "sagen", "Te digo como se hace esto-Ich sage dir, wie das gemacht wird"];
+var erhalten = [new Verbo("erhalte", "erhältst", "erhält", "erhalten", "erhalt", "erhalten"), new Verbo("habe erhalten", "hast erhalten", "hat erhalten", "haben erhalten", "habt erhalten", "haben erhalten"), "erhalten", "Recibí el correo ayer-Ich habe gestern die Post erhalten"];
 
-    var wollen = [new Verbo("will", "willst", "will", "wollen", "wollt", "wollen"), new Verbo("wollte", "wolltest", "wollte", "wollten", "wolltet", "wollten"), "wollen", "¿quieres las bridas?-Willst du die Kabelbinder?"];
+var anhängen = [new Verbo("hänge an", "hängst an", "hängt an", "hängen an", "hängt an", "hängen an"), new Verbo("habe angehängt", "hast angehängt", "hat angehängt", "haben angehängt", "habt angehängt", "haben angehängt"), "anhängen", "Adjunto la foto al correo-Ich hänge das Foto an die Mail an"];
 
-    var müssen = [new Verbo("muss", "musst", "muss", "müssen", "müsst", "müssen"), new Verbo("musste", "musstest", "musste", "mussten", "musstet", "mussten"), "müssen", "Tengo que fijar las tres líneas eléctricas-Ich muss die drei Stromleitungen reparieren"];
+var bearbeiten = [new Verbo("bearbeite", "bearbeitest", "bearbeitet", "bearbeiten", "bearbeitet", "bearbeiten"), new Verbo("habe bearbeitet", "hast bearbeitet", "hat bearbeitet", "haben bearbeitet", "habt bearbeitet", "haben bearbeitet"), "bearbeiten", "Edito la foto con Photoshop-Ich bearbeite das Foto mit Photoshop"];
 
-    var kühlen = [new Verbo("kühle", "kühlst", "kühlt", "kühlen", "kühlt", "kühlen"), new Verbo("habe gekühlt", "hast gekühlt", "hat gekühlt", "haben gekühlt", "habt gekühlt", "haben gekühlt"), "kühlen", "El frigorífico no enfría-Der Kühlschrank kühlt nicht"];
+var chatten = [new Verbo("chatte", "chattest", "chattet", "chatten", "chattet", "chatten"), new Verbo("habe gechattet", "hast gechattet", "hat gechattet", "haben gechattet", "habt gechattet", "haben gechattet"), "chatten", "Chateo con Mateo-Ich chatte mit Mateo"];
 
-    var wärmen = [new Verbo("wärme", "wärmst", "wärmt", "wärmen", "wärmt", "wärmen"), new Verbo("habe gewärmt", "hast gewärmt", "hat gewärmt", "haben gewärmt", "habt gewärmt", "haben gewärmt"), "wärmen", "Apenas calienta el sol en el norte de Europa-Die Sonne in Nordeuropa wärmt kaum"];
+var modifizieren = [new Verbo("modifiziere", "modifizierst", "modifiziert", "modifizieren", "modifiziert", "modifizieren"), new Verbo("habe modifiziert", "hast modifiziert", "hat modifiziert", "haben modifiziert", "habt modifiziert", "haben modifiziert"), "modifizieren", "he modificado el documento-Ich habe das Dokument modifiziert"];
 
-    var erhalten = [new Verbo("erhalte", "erhältst", "erhält", "erhalten", "erhalt", "erhalten"), new Verbo("habe erhalten", "hast erhalten", "hat erhalten", "haben erhalten", "habt erhalten", "haben erhalten"), "erhalten", "Recibí el correo ayer-Ich habe gestern die Post erhalten"];
+var hochladen = [new Verbo("lade hoch", "lädst hoch", "lädt hoch", "laden hoch", "ladet hoch", "laden hoch"), new Verbo("habe hochgeladen", "hast hochgeladen", "hat hochgeladen", "haben hochgeladen", "habt hochgeladen", "haben hochgeladen"), "hochladen", "Subo los datos a la nube-Ich lade die Daten in die Cloud hoch"];
 
-    var anhängen = [new Verbo("hänge an", "hängst an", "hängt an", "hängen an", "hängt an", "hängen an"), new Verbo("habe angehängt", "hast angehängt", "hat angehängt", "haben angehängt", "habt angehängt", "haben angehängt"), "anhängen", "Adjunto la foto al correo-Ich hänge das Foto an die Mail an"];
+var aktualisieren = [new Verbo("aktualisiere", "aktualisierst", "aktualisiert", "aktualisieren", "aktualisiert", "aktualisieren"), new Verbo("habe aktualisiert", "hast aktualisiert", "hat aktualisiert", "haben aktualisiert", "habt aktualisiert", "haben aktualisiert"), "aktualisieren", "Actualizo la página web-Ich aktualisiere die Webseite", "1"];
 
-    var bearbeiten = [new Verbo("bearbeite", "bearbeitest", "bearbeitet", "bearbeiten", "bearbeitet", "bearbeiten"), new Verbo("habe bearbeitet", "hast bearbeitet", "hat bearbeitet", "haben bearbeitet", "habt bearbeitet", "haben bearbeitet"), "bearbeiten", "Edito la foto para que me quede mejor-Ich bearbeite das Foto, damit es besser aussieht"];
+var entwerfen = [new Verbo("entwerfe", "entwirfst", "entwirft", "entwerfen", "entwerft", "entwerfen"), new Verbo("habe entworfen", "hast entworfen", "hat entworfen", "haben entworfen", "habt entworfen", "haben entworfen"), "Esbozar un programa-Ein Programm entwerfen", "1"];
 
-    var erkunden = [new Verbo("erkunde", "erkundest", "erkundet", "erkunden", "erkundet", "erkunden"), new Verbo("habe erkundet", "hast erkundet", "hat erkundet", "haben erkundet", "habt erkundet", "haben erkundet"), "erkunden", "Explora el codigo para ver el error-Erkunden Sie den Code, um den Fehler zu sehen"];
+var regeln = [new Verbo("regle", "regelst", "regelt", "regeln", "regelt", "regeln"), new Verbo("habe geregelt", "hast geregelt", "hat geregelt", "haben geregelt", "habt geregelt", "haben geregelt"), "regeln", "Ese aparato regula la temperatura-Dieses Gerät dient dazu, die Temperatur zu regeln"];
 
-    var chatten = [new Verbo("chatte", "chattest", "chattet", "chatten", "chattet", "chatten"), new Verbo("habe gechattet", "hast gechattet", "hat gechattet", "haben gechattet", "habt gechattet", "haben gechattet"), "chatten", "Chateo con Mateo-Ich chatte mit Mateo"];
+var vorbereiten = [new Verbo("bereite vor", "bereitest vor", "bereitet vor", "bereiten vor", "bereitet vor", "bereiten vor"), new Verbo("habe vorbereitet", "hast vorbereitet", "hat vorbereitet", "haben vorbereitet", "habt vorbereitet", "haben vorbereitet"), "vorbereiten", "Preparar el material-Das Material vorbereiten"];
 
-    var modifizieren = [new Verbo("modifiziere", "modifizierst", "modifiziert", "modifizieren", "modifiziert", "modifizieren"), new Verbo("habe modifiziert", "hast modifiziert", "hat modifiziert", "haben modifiziert", "habt modifiziert", "haben modifiziert"), "modifizieren", "he modificado el documento-Ich habe das Dokument modifiziert"];
+var verschieben = [new Verbo("verschiebe", "verschiebst", "verschiebt", "verschieben", "verschiebt", "verschieben"), new Verbo("habe verschoben", "hast verschoben", "hat verschoben", "haben verschoben", "habt verschoben", "haben verschoben"), "verschieben", "Desplazar la escalera un par de metros-Die Leiter ein paar Meter verschieben"];
 
-    var hochladen = [new Verbo("lade hoch", "lädst hoch", "lädt hoch", "laden hoch", "ladet hoch", "laden hoch"), new Verbo("habe hochgeladen", "hast hochgeladen", "hat hochgeladen", "haben hochgeladen", "habt hochgeladen", "haben hochgeladen"), "hochladen", "Subo los datos a la nube-Ich lade die Daten in die Cloud hoch"];
+var brennen = [new Verbo("brenne", "brennst", "brennt", "brennen", "brennt", "brennen"), new Verbo("habe gebrannt", "hast gebrannt", "hat gebrannt", "haben gebrannt", "habt gebrannt", "haben gebrannt"), "brennen", "El sol quema mucho hoy-Heute brennt die Sonne sehr"];
 
-    var aktualisieren = [new Verbo("aktualisiere", "aktualisierst", "aktualisiert", "aktualisieren", "aktualisiert", "aktualisieren"), new Verbo("habe aktualisiert", "hast aktualisiert", "hat aktualisiert", "haben aktualisiert", "habt aktualisiert", "haben aktualisiert"), "aktualisieren", "Actualizar la informacion de una página web-Informatieonen auf einer Webseite aktualisieren", "das Programm aktualisieren-actualizar el programa&die Webseite aktualisieren-actualizar la página&Daten aktualisieren-actualizar datos", "1"];
+// var erinnern = cambiar[new Verbo("erinnere mich", "erinnerst dich", "erinnert sich", "erinnern uns", "erinnert euch", "erinnern sich"), new Verbo("habe mich erinnert", "hast dich erinnert", "hat sich erinnert", "haben uns erinnert", "habt euch erinnert", "haben sich erinnert"), "(sich) erinnern", "Lo siento, no me acuerdo-Es tut mir leid, ich erinnere mich nicht"];
 
-    var entwerfen = [new Verbo("entwerfe", "entwirfst", "entwirft", "entwerfen", "entwerft", "entwerfen"), new Verbo("habe entworfen", "hast entworfen", "hat entworfen", "haben entworfen", "habt entworfen", "haben entworfen"), "Esbozar un programa-Ein Programm entwerten", "1"];
+// var einsladen cambiar= [new Verbo("lade ein", "lädst ein", "lädt ein", "laden ein", "ladet ein", "laden ein"), new Verbo("habe eingeladen", "hast eingeladen", "habe eingeladen", "haben eingeladen", "habt eingeladen", "haben eingeladen"), "einladen", "¿Invitamos a Julian a tomar una cerveza?-Laden wir Julian zu einem Bier?"];
 
-    var regeln = [new Verbo("regle", "regelst", "regelt", "regeln", "regelt", "regeln"), new Verbo("habe geregelt", "hast geregelt", "hat geregelt", "haben geregelt", "habt geregelt", "haben geregelt"), "regeln", "Ese aparato regula la temperatura-Dieses Gerät dient dazu, die Temperatur zu regeln"];
+var zahlen = [new Verbo("zahle", "zahlst", "zahlt", "zahlen", "zahlt", "zahlen"), new Verbo("habe gezahlt", "hast gezahlt", "hat gezahlt", "haben gezahlt", "habt gezahlt", "haben gezahlt"), "zahlen", "Ya he pagado la cuenta-Ich habe die Rechnung schon gezahlt"];
 
-    var vorbereiten = [new Verbo("bereite vor", "bereitest vor", "bereitet vor", "bereiten vor", "bereitet vor", "bereiten vor"), new Verbo("habe vorbereitet", "hast vorbereitet", "hat vorbereitet", "haben vorbereitet", "habt vorbereitet", "haben vorbereitet"), "vorbereiten", "Preparar el material-Das Material vorbereiten"];
+var besuchen = [new Verbo("besuche", "besuchst", "besucht", "besuchen", "besucht", "besuchen"), new Verbo("habe besucht", "hast besucht", "hat besucht", "haben besucht", "habt besucht", "haben besucht"), "besuchen", "La semana que viene voy a Suiza a visitar a mi hermano-In der nächsten Woche fahre ich nach Spanien, um meinen Bruder zu besuchen"];
 
-    var erproben = [new Verbo("erprobe", "erprobst", "erprobt", "erproben", "erprobt", "erproben"), new Verbo("habe erprobt", "hast erprobt", "hat erprobt", "haben erprobt", "habt erprobt", "haben erprobt"), "erproben", "Probaron el nuevo material-Sie haben das neue Material erprobt"];
+var spielen = [new Verbo("spiele", "spielst", "spielt", "spielen", "spielt", "spielt"), new Verbo("habe gespielt", "hast gespielt", "hat gespielt", "haben gespielt", "habt gespielt", "haben gespielt"), "spielen", "No puedes jugar fuera-Du darfst nicht draußen spielen"];
 
-    var verschieben = [new Verbo("verschiebe", "verschiebst", "verschiebt", "verschieben", "verschiebt", "verschieben"), new Verbo("habe verschoben", "hast verschoben", "hat verschoben", "haben verschoben", "habt verschoben", "haben verschoben"), "verschieben", "Desplazar la escalera un par de metros-Die Leiter ein paar Meter verschieben"];
+var kapieren = [new Verbo("kapiere", "kapierst", "kapiert", "kapieren", "kapiert", "kapieren"), new Verbo("habe kapiert", "hast kapiert", "hat kapiert", "haben kapiert", "habt kapiert", "haben kapiert"), "kapieren", "Lo has entendido rápido-Du hast es schnell kapiert"];
 
-    var brennen = [new Verbo("brenne", "brennst", "brennt", "brennen", "brennt", "brennen"), new Verbo("habe gebrannt", "hast gebrannt", "hat gebrannt", "haben gebrannt", "habt gebrannt", "haben gebrannt"), "brennen", "el sol quema-die Sonne brennt"];
+var hinsetzen = [new Verbo("setze hin", "setzt hin", "setzt hin", "setzen hin", "setzt hin", "setzen hin"), new Verbo("habe hingesetzt", "hast hingesetzt", "hat hingesetzt", "haben hingesetzt", "habt hingesetzt", "haben hingesetzt"), "hinsetzen", "Siéntate por favor!-Setz dich bitte hin!"];
 
-    var erinnern = [new Verbo("erinnere mich", "erinnerst dich", "erinnert sich", "erinnern uns", "erinnert euch", "erinnern sich"), new Verbo("habe mich erinnert", "hast dich erinnert", "hat sich erinnert", "haben uns erinnert", "habt euch erinnert", "haben sich erinnert"), "erinnern", "Lo siento, no me acuerdo-Es tut mir leid, ich erinnere mich nicht"];
+var wegnehmen = [new Verbo("nehme weg", "nimmst weg", "nimmt weg", "nehmen weg", "nehmt weg", "nehmen weg"), new Verbo("habe weggenommen", "hast weggenommen", "hat weggenommen", "haben weggenommen", "habt weggenommen", "haben weggenommen"), "wegnehmen", "No te lo lleves-Nimm es nicht weg!"];
 
-    // var einsladen cambiar= [new Verbo("lade ein", "lädst ein", "lädt ein", "laden ein", "ladet ein", "laden ein"), new Verbo("habe eingeladen", "hast eingeladen", "habe eingeladen", "haben eingeladen", "habt eingeladen", "haben eingeladen"), "einsladen", "Invitamos a Julian a tomar una cerveza?-Laden wir Julian ein, ein Bier zu trinken?"];
+var stützen = [new Verbo("stütze", "stützt", "stützt", "stützen", "stützt", "stützen"), new Verbo("habe gestützt", "hast gestützt", "hat gestützt", "haben gestützt", "habt gestützt", "haben gestützt"), "stützen", "Apuntalo el techo-Ich stütze das Dach"]; 
 
-    var zahlen = [new Verbo("zahle", "zahlst", "zahlt", "zahlen", "zahlt", "zahlen"), new Verbo("habe gezahlt", "hast gezahlt", "hat gezahlt", "haben gezahlt", "habt gezahlt", "haben gezahlt"), "zahlen", "Ya he pagado la cuenta-Ich habe die Rechnung schon bezahlt"];
+var passen = [new Verbo("passe", "passt", "passt", "passen", "passt", "passen"), new Verbo("habe gepasst", "hast gepasst", "hat gepasst", "haben gepasst", "habt gepasst", "haben gepasst"), "passen", "La llave no cabe en la cerradura-Der Schlüssel passt nicht ins Schloss"];
 
-    var besuchen = [new Verbo("besuche", "besuchst", "besucht", "besuchen", "besucht", "besuchen"), new Verbo("habe besucht", "hast besucht", "hat besucht", "haben besucht", "habt besucht", "haben besucht"), "besuchen", "La semana que viene voy a Suiza a visitar a mi hermano-Die nächste Woche fahre ich nach die Schweiz, um meinen Bruder zu besuchen"];
+var geben = [new Verbo("gebe", "gibst", "gibt", "geben", "gebt", "geben"), new Verbo("habe gegeben", "hast gegeben", "hat gegeben", "haben gegeben", "habt gegeben", "haben gegeben"), "geben", "Dame el martillo-Gib mir den Hammer"];
 
-    var spielen = [new Verbo("spiele", "spielst", "spielt", "spielen", "spielt", "spielt"), new Verbo("habe gespielt", "hast gespielt", "hat gespielt", "haben gespielt", "habt gespielt", "haben gespielt"), "spielen", "No puedes jugar fuera-Du darfst nicht draußen spielen"];
+var sein = [new Verbo("bin", "bist", "ist", "sind", "seid", "sind"), new Verbo("war", "warst", "war", "waren", "wart", "waren"), "sein", "Soy electricista-Ich bin Elektriker"];
 
-    var kapieren = [new Verbo("kapiere", "kapierst", "kapiert", "kapieren", "kapiert", "kapieren"), new Verbo("habe kapiert", "hast kapiert", "hat kapiert", "haben kapiert", "habt kapiert", "haben kapiert"), "kapieren", "Lo has entendido rápido-Du hast es schnell kapiert"];
+var bewegen = [new Verbo("bewege", "bewegst", "bewegt", "bewegen", "bewegt", "bewegen"), new Verbo("habe bewegt", "hast bewegt", "hat bewegt", "haben bewegt", "habt bewegt", "haben bewegt"), "bewegen", "Mueve el cursor-Beweg den Cursor"];
 
-    var hinsetzen = [new Verbo("setze hin", "setzt hin", "setzt hin", "setzen hin", "setzt hin", "setzen hin"), new Verbo("habe hingesetzt", "hast hingesetzt", "hat hingesetzt", "haben hingesetzt", "habt hingesetzt", "haben hingesetzt"), "hinsetzen", "Siéntate por favor!-Setz dich bitte hin!"];
-
-    var wegnehmen = [new Verbo("nehme weg", "nimmst weg", "nimmt weg", "nehmen weg", "nehmt weg", "nehmen weg"), new Verbo("habe weggenommen", "hast weggenommen", "hat weggenommen", "haben weggenommen", "habt weggenommen", "haben weggenommen"), "wegnehmen", "No te lo lleves-Nimm es nicht weg!"];
-
-    // var begränden = [new Verbo("", "", "", "", "", ""), new Verbo("habe ", "hast ", "habe ", "haben ", "habt ", "haben "), "", ""];
-
-    var stützen = [new Verbo("stütze", "stützt", "stützt", "stützen", "stützt", "stützen"), new Verbo("habe gestützt", "hast gestützt", "hat gestützt", "haben gestützt", "habt gestützt", "haben gestützt"), "stützen", "Apuntalo el techo-Ich stütze das Dach"];
-    // (?)
-
-    var passen = [new Verbo("passe", "passt", "passt", "passen", "passt", "passen"), new Verbo("habe gepasst", "hast gepasst", "hat gepasst", "haben gepasst", "habt gepasst", "haben gepasst"), "passen", "La llave no cabe en la cerradura-Der Schlüssel passt nicht ins Schloss"];
-
-    var geben = [new Verbo("gebe", "gibst", "gibt", "geben", "gebt", "geben"), new Verbo("habe gegeben", "hast gegeben", "hat gegeben", "haben gegeben", "habt gegeben", "haben gegeben"), "geben", "Dame el martillo-Gib mir den Hammer"];
-
-    var sein = [new Verbo("bin", "bist", "ist", "sind", "seid", "sind"), new Verbo("war", "warst", "war", "waren", "wart", "waren"), "sein", "Soy electricista-Ich bin Elektriker"];
-
-    var bewegen = [new Verbo("bewege", "bewegst", "bewegt", "bewegen", "bewegt", "bewegen"), new Verbo("habe bewegt", "hast bewegt", "hat bewegt", "haben bewegt", "habt bewegt", "haben bewegt"), "bewegen", "Mueve el cursor-Beweg den Cursor"];
-
-    var abschleifen = [new Verbo("schleife ab", "schleifst ab", "schleift ab", "schleifen ab", "schleift ab", "schleifen ab"), new Verbo("habe abgeschliffen", "hast abgeschliffen", "hat abgeschliffen", "haben abgeschliffen", "habt abgeschliffen", "haben abgeschliffen"), "abschleifen", "Primero lijamos la madera y después la barnizamos-Zuerst schleifen wir das Holz ab und danach lackieren wir es", "den Tisch abschleifen-lijar la mesa&die Tür abschleifen-lijar la puerta&die Bank abschleifen-lijar el banco"];
-
-    var rotieren = [new Verbo("rotiere", "retierst", "rotiert", "rotieren", "rotiert", "rotieren"), new Verbo("habe rotiert", "hast rotiert", "hat rotiert", "haben rotiert", "habt rotiert", "haben rotiert"), "rotieren", "El eje rota-Die Achse rotiert"];
+var abschleifen = [new Verbo("schleife ab", "schleifst ab", "schleift ab", "schleifen ab", "schleift ab", "schleifen ab"), new Verbo("habe abgeschliffen", "hast abgeschliffen", "hat abgeschliffen", "haben abgeschliffen", "habt abgeschliffen", "haben abgeschliffen"), "abschleifen", "Primero lijamos la madera y después la barnizamos-Zuerst schleifen wir das Holz ab und danach lackieren wir es"];
 
     var matriz = [abbiegen, abschalten, abschleifen, aktualisieren, anmachen];
     matriz.sort();
@@ -1301,7 +1282,116 @@
         }
         a2 = !a2;
     }
+    document.onkeypress=getTecla;
+document.onkeydown = getTeclaEspecial;
 
+function getTecla(evento){
+    if(event.keyCode == 13){
+        
+        for (i = 0; i < matriz.length; i++) {
+            if (b2.value == matriz[i][2]) {
+                if (perso == "ich") {
+                    if (b.value == matriz[i][tempo].ich) {
+                        bien += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Ejercicio correcto, el porcentaje de aciertos es: " + procien + "%");
+                        break;
+                    }
+                    else {
+                        mal += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Esta mal... El numero de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                }
+                else if (perso == "du") {
+                    if (b.value == matriz[i][tempo].du) {
+                        bien += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Ejercicio correcto, el porcentaje de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                    else {
+                        mal += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Esta mal... El numero de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                }
+                else if (perso == "er, sie, es") {
+                    if (b.value == matriz[i][tempo].er) {
+                        bien += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Ejercicio correcto, el porcentaje de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                    else {
+                        mal += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Esta mal... El numero de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                }
+                else if (perso == "wir") {
+                    if (b.value == matriz[i][tempo].wir) {
+                        bien += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Ejercicio correcto, el porcentaje de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                    else {
+                        mal += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Esta mal... El numero de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                }
+                else if (perso == "ihr") {
+                    if (b.value == matriz[i][tempo].ihr) {
+                        bien += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Ejercicio correcto, el porcentaje de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                    else {
+                        mal += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Esta mal... El numero de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                }
+                else if (perso == "sie, Sie") {
+                    if (b.value == matriz[i][tempo].sie) {
+                        bien += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Ejercicio correcto, el porcentaje de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                    else {
+                        mal += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Esta mal... El numero de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                }
+                else {
+                    alert("algo va mal");
+                }
+            }
+        }
+    }
+    }
 
 
 

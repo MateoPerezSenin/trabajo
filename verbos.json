@@ -1,0 +1,1338 @@
+{
+    "verbos" : [
+  {
+    "rank": 1,
+    "tipo":"Verbo Compuesto",
+    "german": "rotieren",
+    "spanish": "apagar, desactivar",
+    "infinitivo":"gewesenn",
+    "participio":"gebogen",
+    "imperativo":"gewesen",
+    "presente":[
+      {
+        "persona":"ich",
+        "verbo": "dsa",
+        "auxiliar":""
+      },
+      {
+        "persona":"du",
+        "verbo": "dsa",
+        "auxiliar":""
+      },
+      {
+        "persona":"er, sie, es",
+        "verbo": "dsa",
+        "auxiliar":""
+      },
+      {
+        "persona":"wir",
+        "verbo": "dsa",
+        "auxiliar":""
+      },
+      {
+        "persona":"ihr",
+        "verbo": "dsa",
+        "auxiliar":""
+      },
+      {
+        "persona":"sie, Sie",
+        "verbo": "dsa",
+        "auxiliar":""
+      }
+    ],
+    "preterito":[
+      {
+        "persona":"ich",
+        "auxiliar":"plk",
+        "verbo":"habe"
+      },
+      {
+        "persona":"du",
+        "auxiliar":"plk",
+        "verbo":"hast"
+      },
+      {
+        "persona":"er, sie, es",
+        "auxiliar":"plk",
+        "verbo":"hat"
+      },
+      {
+        "persona":"wir",
+        "auxiliar":"plk",
+        "verbo":"haben"
+      },
+      {
+        "persona":"ihr",
+        "auxiliar":"plk",
+        "verbo":"habt"
+      },
+      {
+        "persona":"sie, Sie",
+        "auxiliar":"plk",
+        "verbo":"haben"
+      }
+    ],
+    "futuro":[
+      {
+        "persona":"ich",
+        "auxiliar":"lkp",
+        "verbo":"werde"
+      },
+      {
+        "persona":"du",
+        "auxiliar":"lkp",
+        "verbo":"wirst"
+      },
+      {
+        "persona":"er, sie, es",
+        "auxiliar":"lkp",
+        "verbo":"wird"
+      },
+      {
+        "persona":"wir",
+        "auxiliar":"lkp",
+        "verbo":"werden"
+      },
+      {
+        "persona":"ihr",
+        "auxiliar":"lkp",
+        "verbo":"werdet"
+      },
+      {
+        "persona":"sie, Sie",
+        "auxiliar":"lkp",
+        "verbo":"werden"
+      }
+    ]
+  },
+  
+    ]
+  }
+]
+}
+{
+  "verbos" : [
+{
+  "rank": 1,
+  "tipo":"Verbo Compuesto",
+  "german": "rotieren",
+  "spanish": "rotar",
+  "infinitivo":"rotieren",
+  "participio":"rotierend",
+  "imperativo":"rotiere",
+  "presente":[
+    {
+      "persona":"ich",
+      "verbo": "rotiere",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"du",
+      "verbo": "rotierst",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"er, sie, es",
+      "verbo": "rotiert",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"wir",
+      "verbo": "rotieren",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"ihr",
+      "verbo": "rotiert",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"sie, Sie",
+      "verbo": "rotieren",
+      "auxiliar":"hin"
+    }
+  ],
+  "preterito":[
+    {
+      "persona":"ich",
+      "auxiliar":"rotiert",
+      "verbo":"habe"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"rotiert",
+      "verbo":"hast"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"rotiert",
+      "verbo":"hat"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"rotiert",
+      "verbo":"haben"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"rotiert",
+      "verbo":"habt"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"rotiert",
+      "verbo":"haben"
+    }
+  ],
+  "futuro":[
+    {
+      "persona":"ich",
+      "auxiliar":"rotieren",
+      "verbo":"werde"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"rotieren",
+      "verbo":"wirst"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"rotieren",
+      "verbo":"wird"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"rotieren",
+      "verbo":"werden"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"rotieren",
+      "verbo":"werdet"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"rotieren",
+      "verbo":"werden"
+    }
+  ]
+},
+
+  ]
+}
+]
+}{
+  "verbos" : [
+{
+  "rank": 1,
+  "tipo":"Verbo Compuesto",
+  "german": "abschleifen",
+  "spanish": "lijar",
+  "infinitivo":"abschleifen",
+  "participio":"abschleifend",
+  "imperativo":"schleife/eif",
+  "presente":[
+    {
+      "persona":"ich",
+      "verbo": "schleife",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"du",
+      "verbo": "schleifst",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"er, sie, es",
+      "verbo": "schleift",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"wir",
+      "verbo": "schleifen",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"ihr",
+      "verbo": "schleift",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"sie, Sie",
+      "verbo": "schleifen",
+      "auxiliar":"hin"
+    }
+  ],
+  "preterito":[
+    {
+      "persona":"ich",
+      "auxiliar":"abgeschliffen",
+      "verbo":"bin"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"abgeschliffen",
+      "verbo":"bist"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"abgeschliffen",
+      "verbo":"ist"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"abgeschliffen",
+      "verbo":"sind"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"abgeschliffen",
+      "verbo":"seid"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"abgeschliffen",
+      "verbo":"sind"
+    }
+  ],
+  "futuro":[
+    {
+      "persona":"ich",
+      "auxiliar":"abschleifen",
+      "verbo":"werde"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"bewegen",
+      "verbo":"wirst"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"bewegen",
+      "verbo":"wird"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"bewegen",
+      "verbo":"werden"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"bewegen",
+      "verbo":"werdet"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"bewegen",
+      "verbo":"werden"
+    }
+  ]
+},
+
+  ]
+}
+]
+}
+{
+  "verbos" : [
+{
+  "rank": 1,
+  "tipo":"Verbo Compuesto",
+  "german": "bewegen",
+  "spanish": "mover",
+  "infinitivo":"bewegen",
+  "participio":"bewegend",
+  "imperativo":"bewoge/egt",
+  "presente":[
+    {
+      "persona":"ich",
+      "verbo": "bewege",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"du",
+      "verbo": "bewegst",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"er, sie, es",
+      "verbo": "bewegt",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"wir",
+      "verbo": "bewegen",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"ihr",
+      "verbo": "bewegt",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"sie, Sie",
+      "verbo": "bewegen",
+      "auxiliar":"hin"
+    }
+  ],
+  "preterito":[
+    {
+      "persona":"ich",
+      "auxiliar":"bewogen/egt",
+      "verbo":"habe"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"bewogen/egt",
+      "verbo":"hast"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"bewogen/egt",
+      "verbo":"hat"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"bewogen/egt",
+      "verbo":"haben"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"bewogen/egt",
+      "verbo":"habt"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"bewogen/egt",
+      "verbo":"haben"
+    }
+  ],
+  "futuro":[
+    {
+      "persona":"ich",
+      "auxiliar":"bewegen",
+      "verbo":"werde"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"bewegen",
+      "verbo":"wirst"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"bewegen",
+      "verbo":"wird"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"bewegen",
+      "verbo":"werden"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"bewegen",
+      "verbo":"werdet"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"bewegen",
+      "verbo":"werden"
+    }
+  ]
+},
+
+  ]
+}
+]
+}
+{
+  "verbos" : [
+{
+  "rank": 1,
+  "tipo":"Verbo Compuesto",
+  "german": "sein",
+  "spanish": "ser, estar",
+  "infinitivo":"sein",
+  "participio":"seiend",
+  "imperativo":"sei",
+  "presente":[
+    {
+      "persona":"ich",
+      "verbo": "bin",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"du",
+      "verbo": "bist",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"er, sie, es",
+      "verbo": "ist",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"wir",
+      "verbo": "sind",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"ihr",
+      "verbo": "seid",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"sie, Sie",
+      "verbo": "sind",
+      "auxiliar":"hin"
+    }
+  ],
+  "preterito":[
+    {
+      "persona":"ich",
+      "auxiliar":"gewesen",
+      "verbo":"bin"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"gewesen",
+      "verbo":"bist"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"gewesen",
+      "verbo":"ist"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"gewesen",
+      "verbo":"sind"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"gewesen",
+      "verbo":"seid"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"gewesen",
+      "verbo":"sind"
+    }
+  ],
+  "futuro":[
+    {
+      "persona":"ich",
+      "auxiliar":"sein",
+      "verbo":"werde"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"sein",
+      "verbo":"wirst"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"sein",
+      "verbo":"wird"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"sein",
+      "verbo":"werden"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"sein",
+      "verbo":"werdet"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"sein",
+      "verbo":"werden"
+    }
+  ]
+},
+
+  ]
+}
+]
+}
+{
+  "verbos" : [
+{
+  "rank": 1,
+  "tipo":"Verbo Compuesto",
+  "german": "geben",
+  "spanish": "dar",
+  "infinitivo":"geben",
+  "participio":"gebend",
+  "imperativo":"gib",
+  "presente":[
+    {
+      "persona":"ich",
+      "verbo": "gebe",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"du",
+      "verbo": "gibst",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"er, sie, es",
+      "verbo": "gibt",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"wir",
+      "verbo": "geben",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"ihr",
+      "verbo": "gebt",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"sie, Sie",
+      "verbo": "geben",
+      "auxiliar":"hin"
+    }
+  ],
+  "preterito":[
+    {
+      "persona":"ich",
+      "auxiliar":"gegeben",
+      "verbo":"habe"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"gegeben",
+      "verbo":"hast"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"gegeben",
+      "verbo":"hat"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"gegeben",
+      "verbo":"haben"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"gegeben",
+      "verbo":"habt"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"gegeben",
+      "verbo":"haben"
+    }
+  ],
+  "futuro":[
+    {
+      "persona":"ich",
+      "auxiliar":"geben",
+      "verbo":"werde"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"geben",
+      "verbo":"wirst"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"geben",
+      "verbo":"wird"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"geben",
+      "verbo":"werden"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"geben",
+      "verbo":"werdet"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"geben",
+      "verbo":"werden"
+    }
+  ]
+},
+
+  ]
+}
+]
+}
+{
+  "verbos" : [
+{
+  "rank": 1,
+  "tipo":"Verbo Compuesto",
+  "german": "passen",
+  "spanish": "caber",
+  "infinitivo":"passen",
+  "participio":"passend",
+  "imperativo":"passe",
+  "presente":[
+    {
+      "persona":"ich",
+      "verbo": "passe",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"du",
+      "verbo": "passt",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"er, sie, es",
+      "verbo": "passt",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"wir",
+      "verbo": "passen",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"ihr",
+      "verbo": "passt",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"sie, Sie",
+      "verbo": "passen",
+      "auxiliar":"hin"
+    }
+  ],
+  "preterito":[
+    {
+      "persona":"ich",
+      "auxiliar":"gepasst",
+      "verbo":"habe"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"gepasst",
+      "verbo":"hast"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"gepasst",
+      "verbo":"hat"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"gepasst",
+      "verbo":"haben"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"gepasst",
+      "verbo":"habt"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"gepasst",
+      "verbo":"haben"
+    }
+  ],
+  "futuro":[
+    {
+      "persona":"ich",
+      "auxiliar":"passen",
+      "verbo":"werde"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"stützen",
+      "verbo":"wirst"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"stützen",
+      "verbo":"wird"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"stützen",
+      "verbo":"werden"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"stützen",
+      "verbo":"werdet"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"stützen",
+      "verbo":"werden"
+    }
+  ]
+},
+
+  ]
+}
+]
+}
+{
+  "verbos" : [
+{
+  "rank": 1,
+  "tipo":"Verbo Compuesto",
+  "german": "stützen",
+  "spanish": "apuntar",
+  "infinitivo":"stützen",
+  "participio":"stützend",
+  "imperativo":"stütze",
+  "presente":[
+    {
+      "persona":"ich",
+      "verbo": "stütze",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"du",
+      "verbo": "stützt",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"er, sie, es",
+      "verbo": "stützt",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"wir",
+      "verbo": "stützen",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"ihr",
+      "verbo": "stützt",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"sie, Sie",
+      "verbo": "stützen",
+      "auxiliar":"hin"
+    }
+  ],
+  "preterito":[
+    {
+      "persona":"ich",
+      "auxiliar":"gestützt",
+      "verbo":"habe"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"gestützt",
+      "verbo":"hast"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"gestützt",
+      "verbo":"hat"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"gestützt",
+      "verbo":"haben"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"gestützt",
+      "verbo":"habt"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"gestützt",
+      "verbo":"haben"
+    }
+  ],
+  "futuro":[
+    {
+      "persona":"ich",
+      "auxiliar":"stützen",
+      "verbo":"werde"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"stützen",
+      "verbo":"wirst"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"stützen",
+      "verbo":"wird"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"stützen",
+      "verbo":"werden"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"stützen",
+      "verbo":"werdet"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"stützen",
+      "verbo":"werden"
+    }
+  ]
+},
+
+  ]
+}
+]
+}
+{
+  "verbos" : [
+{
+  "rank": 1,
+  "tipo":"Verbo Compuesto",
+  "german": "wegnehmen",
+  "spanish": "llevar",
+  "infinitivo":"wegnehmen",
+  "participio":"wegnehmend",
+  "imperativo":"nimm",
+  "presente":[
+    {
+      "persona":"ich",
+      "verbo": "nehme",
+      "auxiliar":"weg"
+    },
+    {
+      "persona":"du",
+      "verbo": "nimmst",
+      "auxiliar":"weg"
+    },
+    {
+      "persona":"er, sie, es",
+      "verbo": "nimmt",
+      "auxiliar":"weg"
+    },
+    {
+      "persona":"wir",
+      "verbo": "nehmen",
+      "auxiliar":"weg"
+    },
+    {
+      "persona":"ihr",
+      "verbo": "nehmt",
+      "auxiliar":"weg"
+    },
+    {
+      "persona":"sie, Sie",
+      "verbo": "nehmen",
+      "auxiliar":"weg"
+    }
+  ],
+  "preterito":[
+    {
+      "persona":"ich",
+      "auxiliar":"weggenommen",
+      "verbo":"habe"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"weggenommen",
+      "verbo":"hast"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"weggenommen",
+      "verbo":"hat"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"weggenommen",
+      "verbo":"haben"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"weggenommen",
+      "verbo":"habt"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"weggenommen",
+      "verbo":"haben"
+    }
+  ],
+  "futuro":[
+    {
+      "persona":"ich",
+      "auxiliar":"nehmen",
+      "verbo":"werde"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"nehmen",
+      "verbo":"wirst"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"nehmen",
+      "verbo":"wird"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"nehmen",
+      "verbo":"werden"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"nehmen",
+      "verbo":"werdet"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"nehmen",
+      "verbo":"werden"
+    }
+  ]
+},
+
+  ]
+}
+]
+}
+{
+  "verbos" : [
+{
+  "rank": 1,
+  "tipo":"Verbo Compuesto",
+  "german": "hinsetzen",
+  "spanish": "sentarse",
+  "infinitivo":"hinsetzen",
+  "participio":"hinsetzend",
+  "imperativo":"setze",
+  "presente":[
+    {
+      "persona":"ich",
+      "verbo": "setze",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"du",
+      "verbo": "setzt",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"er, sie, es",
+      "verbo": "setzt",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"wir",
+      "verbo": "setzen",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"ihr",
+      "verbo": "setzt",
+      "auxiliar":"hin"
+    },
+    {
+      "persona":"sie, Sie",
+      "verbo": "setzen",
+      "auxiliar":"hin"
+    }
+  ],
+  "preterito":[
+    {
+      "persona":"ich",
+      "auxiliar":"hingesetzt",
+      "verbo":"habe"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"hingesetzt",
+      "verbo":"hast"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"hingesetzt",
+      "verbo":"hat"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"hingesetzt",
+      "verbo":"haben"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"hingesetzt",
+      "verbo":"habt"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"hingesetzt",
+      "verbo":"haben"
+    }
+  ],
+  "futuro":[
+    {
+      "persona":"ich",
+      "auxiliar":"hingesetzt",
+      "verbo":"werde"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"hingesetzt",
+      "verbo":"wirst"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"hingesetzt",
+      "verbo":"wird"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"hingesetzt",
+      "verbo":"werden"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"hingesetzt",
+      "verbo":"werdet"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"hingesetzt",
+      "verbo":"werden"
+    }
+  ]
+},
+{
+  "verbos" : [
+{
+  "rank": 1,
+  "tipo":"Verbo Compuesto",
+  "german": "kapieren",
+  "spanish": "entender",
+  "infinitivo":"kapieren",
+  "participio":"kapierend",
+  "imperativo":"kapiere",
+  "presente":[
+    {
+      "persona":"ich",
+      "verbo": "kapiere",
+      "auxiliar":""
+    },
+    {
+      "persona":"du",
+      "verbo": "kapierst",
+      "auxiliar":""
+    },
+    {
+      "persona":"er, sie, es",
+      "verbo": "kapiert",
+      "auxiliar":""
+    },
+    {
+      "persona":"wir",
+      "verbo": "kapieren",
+      "auxiliar":""
+    },
+    {
+      "persona":"ihr",
+      "verbo": "kapiert",
+      "auxiliar":""
+    },
+    {
+      "persona":"sie, Sie",
+      "verbo": "kapieren",
+      "auxiliar":""
+    }
+  ],
+  "preterito":[
+    {
+      "persona":"ich",
+      "auxiliar":"hingesetzt",
+      "verbo":"habe"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"hingesetzt",
+      "verbo":"hast"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"hingesetzt",
+      "verbo":"hat"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"hingesetzt",
+      "verbo":"haben"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"hingesetzt",
+      "verbo":"habt"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"hingesetzt",
+      "verbo":"haben"
+    }
+  ],
+  "futuro":[
+    {
+      "persona":"ich",
+      "auxiliar":"hingesetzt",
+      "verbo":"werde"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"hingesetzt",
+      "verbo":"wirst"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"hingesetzt",
+      "verbo":"wird"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"hingesetzt",
+      "verbo":"werden"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"hingesetzt",
+      "verbo":"werdet"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"hingesetzt",
+      "verbo":"werden"
+    }
+  ]
+},
+
+  ]
+}
+]
+}
+{
+  "verbos" : [
+{
+  "rank": 1,
+  "tipo":"Verbo Compuesto",
+  "german": "spielen",
+  "spanish": "jugar",
+  "infinitivo":"gewesenn",
+  "participio":"gebogen",
+  "imperativo":"gewesen",
+  "presente":[
+    {
+      "persona":"ich",
+      "verbo": "dsa",
+      "auxiliar":""
+    },
+    {
+      "persona":"du",
+      "verbo": "dsa",
+      "auxiliar":""
+    },
+    {
+      "persona":"er, sie, es",
+      "verbo": "dsa",
+      "auxiliar":""
+    },
+    {
+      "persona":"wir",
+      "verbo": "dsa",
+      "auxiliar":""
+    },
+    {
+      "persona":"ihr",
+      "verbo": "dsa",
+      "auxiliar":""
+    },
+    {
+      "persona":"sie, Sie",
+      "verbo": "dsa",
+      "auxiliar":""
+    }
+  ],
+  "preterito":[
+    {
+      "persona":"ich",
+      "auxiliar":"plk",
+      "verbo":"habe"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"plk",
+      "verbo":"hast"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"plk",
+      "verbo":"hat"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"plk",
+      "verbo":"haben"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"plk",
+      "verbo":"habt"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"plk",
+      "verbo":"haben"
+    }
+  ],
+  "futuro":[
+    {
+      "persona":"ich",
+      "auxiliar":"lkp",
+      "verbo":"werde"
+    },
+    {
+      "persona":"du",
+      "auxiliar":"lkp",
+      "verbo":"wirst"
+    },
+    {
+      "persona":"er, sie, es",
+      "auxiliar":"lkp",
+      "verbo":"wird"
+    },
+    {
+      "persona":"wir",
+      "auxiliar":"lkp",
+      "verbo":"werden"
+    },
+    {
+      "persona":"ihr",
+      "auxiliar":"lkp",
+      "verbo":"werdet"
+    },
+    {
+      "persona":"sie, Sie",
+      "auxiliar":"lkp",
+      "verbo":"werden"
+    }
+  ]
+},
+
+  ]
+}
+]
+}
